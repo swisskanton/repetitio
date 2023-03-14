@@ -1,13 +1,10 @@
-package repetitio;
-
 public class ElsoProject {
     public static void main(String[] args) {
         String result = censor("Ez a kutya nagyon aranyos egy kutya.", "kutya", "macska");
-        System.out.println("Próba! " + result);
+        System.out.println("Proba! " + result);
     }
 
-    static String censor(String text, String toChange, String word) {
-        String newText = text.replaceAll(toChange, word);
-        return newText;
+    static String censor(String txt, String toChange, String word) {
+        return txt.replaceAll(toChange, word);
     }
 }
