@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Basic steps">
-      <change afterPath="$PROJECT_DIR$/src/AnimalsAndLegs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AverageOfInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HelloUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MileToKmConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConditionalVariableMutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OddEven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OneTwoALot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PartyIndicator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrintBigger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,16 +47,9 @@
       <recent name="C:\www\java\repetitio\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AverageOfInput">
-    <configuration name="AnimalsAndLegs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AnimalsAndLegs" />
-      <module name="repetitio" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AverageOfInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AverageOfInput" />
+  <component name="RunManager" selected="Application.ConditionalVariableMutation">
+    <configuration name="ConditionalVariableMutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConditionalVariableMutation" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -69,22 +63,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HelloUser" />
+    <configuration name="OddEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OddEven" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MileToKmConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MileToKmConverter" />
+    <configuration name="OneTwoALot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OneTwoALot" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondsInADay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SecondsInADay" />
+    <configuration name="PartyIndicator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PartyIndicator" />
+      <module name="repetitio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintBigger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrintBigger" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,19 +99,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
-      <item itemvalue="Application.AnimalsAndLegs" />
-      <item itemvalue="Application.AverageOfInput" />
-      <item itemvalue="Application.HelloUser" />
-      <item itemvalue="Application.MileToKmConverter" />
-      <item itemvalue="Application.SecondsInADay" />
+      <item itemvalue="Application.ConditionalVariableMutation" />
+      <item itemvalue="Application.OddEven" />
+      <item itemvalue="Application.OneTwoALot" />
+      <item itemvalue="Application.PartyIndicator" />
+      <item itemvalue="Application.PrintBigger" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AverageOfInput" />
-        <item itemvalue="Application.AnimalsAndLegs" />
-        <item itemvalue="Application.MileToKmConverter" />
-        <item itemvalue="Application.HelloUser" />
-        <item itemvalue="Application.SecondsInADay" />
+        <item itemvalue="Application.ConditionalVariableMutation" />
+        <item itemvalue="Application.PartyIndicator" />
+        <item itemvalue="Application.PrintBigger" />
+        <item itemvalue="Application.OneTwoALot" />
+        <item itemvalue="Application.OddEven" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678796520367</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Basic steps">
+      <created>1678811136501</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678811136501</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
