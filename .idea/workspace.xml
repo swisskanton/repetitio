@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Basic steps">
-      <change afterPath="$PROJECT_DIR$/src/CodingHours.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HelloOthers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IntroduceYourself.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bmi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cuboid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DefineBasicInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FavoriteNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecondsInADay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Swap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VariableMutation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ElsoProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ElsoProject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HumptyDumpty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HumptyDumpty.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +49,23 @@
       <recent name="C:\www\java\repetitio\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ElsoProject">
-    <configuration name="CodingHours" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodingHours" />
+  <component name="RunManager" selected="Application.SecondsInADay">
+    <configuration name="Bmi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bmi" />
+      <module name="repetitio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Cuboid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Cuboid" />
+      <module name="repetitio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DefineBasicInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DefineBasicInfo" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -64,29 +79,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloOthers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HelloOthers" />
+    <configuration name="SecondsInADay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SecondsInADay" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HumptyDumpty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HumptyDumpty" />
-      <module name="repetitio" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IntroduceYourself" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IntroduceYourself" />
-      <module name="repetitio" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TwoNumbers" />
+    <configuration name="VariableMutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VariableMutation" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,19 +101,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
-      <item itemvalue="Application.CodingHours" />
-      <item itemvalue="Application.HelloOthers" />
-      <item itemvalue="Application.HumptyDumpty" />
-      <item itemvalue="Application.IntroduceYourself" />
-      <item itemvalue="Application.TwoNumbers" />
+      <item itemvalue="Application.Bmi" />
+      <item itemvalue="Application.Cuboid" />
+      <item itemvalue="Application.DefineBasicInfo" />
+      <item itemvalue="Application.SecondsInADay" />
+      <item itemvalue="Application.VariableMutation" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CodingHours" />
-        <item itemvalue="Application.TwoNumbers" />
-        <item itemvalue="Application.IntroduceYourself" />
-        <item itemvalue="Application.HelloOthers" />
-        <item itemvalue="Application.HumptyDumpty" />
+        <item itemvalue="Application.SecondsInADay" />
+        <item itemvalue="Application.Cuboid" />
+        <item itemvalue="Application.VariableMutation" />
+        <item itemvalue="Application.DefineBasicInfo" />
+        <item itemvalue="Application.Bmi" />
       </list>
     </recent_temporary>
   </component>
@@ -125,6 +126,14 @@
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
     </task>
+    <task id="LOCAL-00001" summary="Basic steps">
+      <created>1678790473797</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678790473797</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
