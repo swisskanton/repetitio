@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Basic steps">
-      <change afterPath="$PROJECT_DIR$/src/CountFromTo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DrawDiagonal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DrawDiamond.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DrawPyramid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DrawSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DrawTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IWontCheatOnTheExams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultiplicationTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrintEven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DrawChessTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GuessTheNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParametricAverage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,14 +45,7 @@
       <recent name="C:\www\java\repetitio\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DrawPyramid">
-    <configuration name="DrawDiagonal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DrawDiagonal" />
-      <module name="repetitio" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ParametricAverage">
     <configuration name="DrawDiamond" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DrawDiamond" />
       <module name="repetitio" />
@@ -89,8 +75,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FizzBuzz" />
+    <configuration name="GuessTheNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GuessTheNumber" />
+      <module name="repetitio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParametricAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ParametricAverage" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,19 +97,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
-      <item itemvalue="Application.DrawDiagonal" />
       <item itemvalue="Application.DrawDiamond" />
       <item itemvalue="Application.DrawPyramid" />
       <item itemvalue="Application.DrawSquare" />
-      <item itemvalue="Application.FizzBuzz" />
+      <item itemvalue="Application.GuessTheNumber" />
+      <item itemvalue="Application.ParametricAverage" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParametricAverage" />
+        <item itemvalue="Application.GuessTheNumber" />
         <item itemvalue="Application.DrawPyramid" />
         <item itemvalue="Application.DrawDiamond" />
         <item itemvalue="Application.DrawSquare" />
-        <item itemvalue="Application.DrawDiagonal" />
-        <item itemvalue="Application.FizzBuzz" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678821082038</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Basic steps">
+      <created>1678880104589</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678880104589</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
