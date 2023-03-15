@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Basic steps">
-      <change afterPath="$PROJECT_DIR$/src/DrawChessTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SubStr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AppendA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChangeElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Colors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompareLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DiagonalMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DoubleItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IncrementElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrintAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SumAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SumElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwapElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Third.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,16 +55,16 @@
       <recent name="C:\www\java\repetitio\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SubStr">
-    <configuration name="DrawChessTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DrawChessTable" />
+  <component name="RunManager" selected="Application.Reverse">
+    <configuration name="AppendA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AppendA" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DrawPyramid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DrawPyramid" />
+    <configuration name="DoubleItems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DoubleItems" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -67,22 +78,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GuessTheNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GuessTheNumber" />
+    <configuration name="Reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reverse" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParametricAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ParametricAverage" />
+    <configuration name="SumAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SumAll" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SubStr" />
+    <configuration name="SwapElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SwapElements" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,19 +107,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
-      <item itemvalue="Application.DrawChessTable" />
-      <item itemvalue="Application.SubStr" />
-      <item itemvalue="Application.DrawPyramid" />
-      <item itemvalue="Application.GuessTheNumber" />
-      <item itemvalue="Application.ParametricAverage" />
+      <item itemvalue="Application.AppendA" />
+      <item itemvalue="Application.DoubleItems" />
+      <item itemvalue="Application.Reverse" />
+      <item itemvalue="Application.SumAll" />
+      <item itemvalue="Application.SwapElements" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SubStr" />
-        <item itemvalue="Application.DrawChessTable" />
-        <item itemvalue="Application.ParametricAverage" />
-        <item itemvalue="Application.GuessTheNumber" />
-        <item itemvalue="Application.DrawPyramid" />
+        <item itemvalue="Application.Reverse" />
+        <item itemvalue="Application.SumAll" />
+        <item itemvalue="Application.SwapElements" />
+        <item itemvalue="Application.AppendA" />
+        <item itemvalue="Application.DoubleItems" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678884632448</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Basic steps">
+      <created>1678898759757</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678898759757</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
