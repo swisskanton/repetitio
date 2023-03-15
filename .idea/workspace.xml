@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Basic steps">
       <change afterPath="$PROJECT_DIR$/src/DrawChessTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GuessTheNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParametricAverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SubStr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,9 +44,9 @@
       <recent name="C:\www\java\repetitio\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ParametricAverage">
-    <configuration name="DrawDiamond" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DrawDiamond" />
+  <component name="RunManager" selected="Application.SubStr">
+    <configuration name="DrawChessTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DrawChessTable" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -55,13 +54,6 @@
     </configuration>
     <configuration name="DrawPyramid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DrawPyramid" />
-      <module name="repetitio" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DrawSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DrawSquare" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,6 +81,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SubStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SubStr" />
+      <module name="repetitio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <module name="repetitio" />
       <method v="2">
@@ -97,19 +96,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
-      <item itemvalue="Application.DrawDiamond" />
+      <item itemvalue="Application.DrawChessTable" />
+      <item itemvalue="Application.SubStr" />
       <item itemvalue="Application.DrawPyramid" />
-      <item itemvalue="Application.DrawSquare" />
       <item itemvalue="Application.GuessTheNumber" />
       <item itemvalue="Application.ParametricAverage" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubStr" />
+        <item itemvalue="Application.DrawChessTable" />
         <item itemvalue="Application.ParametricAverage" />
         <item itemvalue="Application.GuessTheNumber" />
         <item itemvalue="Application.DrawPyramid" />
-        <item itemvalue="Application.DrawDiamond" />
-        <item itemvalue="Application.DrawSquare" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678880104589</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Basic steps">
+      <created>1678884632448</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678884632448</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
