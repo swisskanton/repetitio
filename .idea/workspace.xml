@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="String exercise">
-      <change afterPath="$PROJECT_DIR$/src/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SimpleReplace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TakesLonger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TodoPrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UrlFixer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListIntroduction1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListIntroduction2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +45,7 @@
       <recent name="C:\www\java\repetitio\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TodoPrint">
+  <component name="RunManager" selected="Application.ListIntroduction2">
     <configuration name="ElsoProject" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-18" />
       <option name="MAIN_CLASS_NAME" value="ElsoProject" />
@@ -57,15 +54,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReverseString" />
+    <configuration name="ListIntroduction1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ListIntroduction1" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleReplace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SimpleReplace" />
+    <configuration name="ListIntroduction2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ListIntroduction2" />
+      <module name="repetitio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReverseString" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,13 +89,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UrlFixer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UrlFixer" />
-      <module name="repetitio" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <module name="repetitio" />
       <method v="2">
@@ -100,19 +97,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
+      <item itemvalue="Application.ListIntroduction1" />
+      <item itemvalue="Application.ListIntroduction2" />
       <item itemvalue="Application.ReverseString" />
-      <item itemvalue="Application.SimpleReplace" />
       <item itemvalue="Application.TakesLonger" />
       <item itemvalue="Application.TodoPrint" />
-      <item itemvalue="Application.UrlFixer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListIntroduction2" />
+        <item itemvalue="Application.ListIntroduction1" />
         <item itemvalue="Application.TodoPrint" />
         <item itemvalue="Application.ReverseString" />
         <item itemvalue="Application.TakesLonger" />
-        <item itemvalue="Application.UrlFixer" />
-        <item itemvalue="Application.SimpleReplace" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678973071874</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="String exercise">
+      <created>1678999297721</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678999297721</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
