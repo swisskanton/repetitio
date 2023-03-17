@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Data structures">
-      <change afterPath="$PROJECT_DIR$/src/MapIntroduction1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MapIntroduction2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PersonalFinance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TelephoneBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShoppingList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShoppingList2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,24 +45,10 @@
       <recent name="C:\www\java\repetitio\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TelephoneBook">
+  <component name="RunManager" selected="Application.ShoppingList2">
     <configuration name="ElsoProject" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-18" />
       <option name="MAIN_CLASS_NAME" value="ElsoProject" />
-      <module name="repetitio" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListIntroduction2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ListIntroduction2" />
-      <module name="repetitio" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MapIntroduction1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MapIntroduction1" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -79,6 +63,20 @@
     </configuration>
     <configuration name="PersonalFinance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PersonalFinance" />
+      <module name="repetitio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ShoppingList" />
+      <module name="repetitio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingList2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ShoppingList2" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,19 +97,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
-      <item itemvalue="Application.MapIntroduction1" />
       <item itemvalue="Application.MapIntroduction2" />
       <item itemvalue="Application.PersonalFinance" />
+      <item itemvalue="Application.ShoppingList" />
+      <item itemvalue="Application.ShoppingList2" />
       <item itemvalue="Application.TelephoneBook" />
-      <item itemvalue="Application.ListIntroduction2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShoppingList2" />
+        <item itemvalue="Application.ShoppingList" />
         <item itemvalue="Application.TelephoneBook" />
         <item itemvalue="Application.PersonalFinance" />
         <item itemvalue="Application.MapIntroduction2" />
-        <item itemvalue="Application.MapIntroduction1" />
-        <item itemvalue="Application.ListIntroduction2" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679005402575</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Data structures">
+      <created>1679059259159</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679059259159</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
