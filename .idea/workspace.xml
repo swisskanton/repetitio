@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Data structures">
-      <change afterPath="$PROJECT_DIR$/src/GuessMyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JosephusProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,14 +44,7 @@
       <recent name="C:\www\java\repetitio\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GuessMyNumber">
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Calculator" />
-      <module name="repetitio" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.JosephusProblem">
     <configuration name="ElsoProject" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-18" />
       <option name="MAIN_CLASS_NAME" value="ElsoProject" />
@@ -69,6 +62,13 @@
     </configuration>
     <configuration name="HeWillNever" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HeWillNever" />
+      <module name="repetitio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JosephusProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JosephusProblem" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,17 +98,17 @@
       <item itemvalue="Application.ElsoProject" />
       <item itemvalue="Application.GuessMyNumber" />
       <item itemvalue="Application.HeWillNever" />
+      <item itemvalue="Application.JosephusProblem" />
       <item itemvalue="Application.StudentCounter" />
       <item itemvalue="Application.SubStrList" />
-      <item itemvalue="Application.Calculator" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JosephusProblem" />
         <item itemvalue="Application.GuessMyNumber" />
         <item itemvalue="Application.SubStrList" />
         <item itemvalue="Application.StudentCounter" />
         <item itemvalue="Application.HeWillNever" />
-        <item itemvalue="Application.Calculator" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679163750837</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Data structures">
+      <created>1679166903926</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1679166903926</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
