@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="File IO - writing files">
-      <change afterPath="$PROJECT_DIR$/src/WriteMultipleLines.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CopyFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,16 +44,16 @@
       <recent name="C:\www\java\repetitio\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrintEachLine">
-    <configuration name="CountLines" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CountLines" />
+  <component name="RunManager" selected="Application.CopyFile">
+    <configuration name="CopyFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CopyFile" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DivideByZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DivideByZero" />
+    <configuration name="CountLines" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountLines" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,19 +96,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
+      <item itemvalue="Application.CopyFile" />
       <item itemvalue="Application.WriteMultipleLines" />
       <item itemvalue="Application.CountLines" />
-      <item itemvalue="Application.DivideByZero" />
       <item itemvalue="Application.PrintEachLine" />
       <item itemvalue="Application.WriteSingleLine" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CopyFile" />
         <item itemvalue="Application.PrintEachLine" />
         <item itemvalue="Application.WriteMultipleLines" />
         <item itemvalue="Application.WriteSingleLine" />
         <item itemvalue="Application.CountLines" />
-        <item itemvalue="Application.DivideByZero" />
       </list>
     </recent_temporary>
   </component>
@@ -365,7 +366,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679250208379</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="File IO - writing files">
+      <created>1679251262509</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1679251262509</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
