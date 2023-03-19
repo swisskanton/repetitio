@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="File IO - reading file">
-      <change afterPath="$PROJECT_DIR$/src/WriteSingleLine.java" afterDir="false" />
+    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="File IO - writing files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/my-file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/my-file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WriteSingleLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WriteSingleLine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -346,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679230705855</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="File IO - writing files">
+      <created>1679237408945</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1679237408945</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -369,7 +375,8 @@
     <MESSAGE value="Exception example" />
     <MESSAGE value="File IO" />
     <MESSAGE value="File IO - reading file" />
-    <option name="LAST_COMMIT_MESSAGE" value="File IO - reading file" />
+    <MESSAGE value="File IO - writing files" />
+    <option name="LAST_COMMIT_MESSAGE" value="File IO - writing files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
