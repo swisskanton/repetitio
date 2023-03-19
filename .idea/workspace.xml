@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="File IO - writing files">
-      <change beforePath="$PROJECT_DIR$/src/my-file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/my-file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WriteMultipleLines.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,13 +44,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.PrintEachLine">
-    <configuration name="ArmstrongNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArmstrongNumber" />
-      <module name="repetitio" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CountLines" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CountLines" />
       <module name="repetitio" />
@@ -80,6 +73,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WriteMultipleLines" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WriteMultipleLines" />
+      <module name="repetitio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WriteSingleLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WriteSingleLine" />
       <module name="repetitio" />
@@ -95,19 +95,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
+      <item itemvalue="Application.WriteMultipleLines" />
       <item itemvalue="Application.CountLines" />
       <item itemvalue="Application.DivideByZero" />
       <item itemvalue="Application.PrintEachLine" />
       <item itemvalue="Application.WriteSingleLine" />
-      <item itemvalue="Application.ArmstrongNumber" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.PrintEachLine" />
+        <item itemvalue="Application.WriteMultipleLines" />
         <item itemvalue="Application.WriteSingleLine" />
         <item itemvalue="Application.CountLines" />
         <item itemvalue="Application.DivideByZero" />
-        <item itemvalue="Application.ArmstrongNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -358,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679249963226</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="File IO - writing files">
+      <created>1679250208379</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1679250208379</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
