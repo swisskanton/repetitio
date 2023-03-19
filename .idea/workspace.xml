@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Exception example">
-      <change afterPath="$PROJECT_DIR$/src/PrintEachLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="File IO">
+      <change afterPath="$PROJECT_DIR$/src/CountLines.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +43,16 @@
       <recent name="C:\www\java\repetitio\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrintEachLine">
+  <component name="RunManager" selected="Application.CountLines">
     <configuration name="ArmstrongNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArmstrongNumber" />
+      <module name="repetitio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountLines" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountLines" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -62,13 +68,6 @@
     <configuration name="ElsoProject" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-18" />
       <option name="MAIN_CLASS_NAME" value="ElsoProject" />
-      <module name="repetitio" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GuessMyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GuessMyNumber" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,19 +95,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
+      <item itemvalue="Application.CountLines" />
       <item itemvalue="Application.DivideByZero" />
       <item itemvalue="Application.PrintEachLine" />
       <item itemvalue="Application.ArmstrongNumber" />
-      <item itemvalue="Application.GuessMyNumber" />
       <item itemvalue="Application.JosephusProblem" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountLines" />
         <item itemvalue="Application.PrintEachLine" />
         <item itemvalue="Application.DivideByZero" />
         <item itemvalue="Application.ArmstrongNumber" />
         <item itemvalue="Application.JosephusProblem" />
-        <item itemvalue="Application.GuessMyNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -324,7 +323,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679219081415</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="File IO">
+      <created>1679230029316</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1679230029316</updated>
+    </task>
+    <task id="LOCAL-00031" summary="File IO">
+      <created>1679230065107</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1679230065107</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -345,7 +358,8 @@
     <MESSAGE value="String exercise" />
     <MESSAGE value="Data structures" />
     <MESSAGE value="Exception example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exception example" />
+    <MESSAGE value="File IO" />
+    <option name="LAST_COMMIT_MESSAGE" value="File IO" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
