@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="File IO">
-      <change afterPath="$PROJECT_DIR$/src/ReversedOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Logs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,14 +45,7 @@
       <recent name="C:\www\java\repetitio\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReversedOrder">
-    <configuration name="CopyFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CopyFile" />
-      <module name="repetitio" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Logs">
     <configuration name="Doubled" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Doubled" />
       <module name="repetitio" />
@@ -62,6 +56,13 @@
     <configuration name="ElsoProject" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-18" />
       <option name="MAIN_CLASS_NAME" value="ElsoProject" />
+      <module name="repetitio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Logs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Logs" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,19 +97,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
+      <item itemvalue="Application.Logs" />
       <item itemvalue="Application.ReversedOrder" />
       <item itemvalue="Application.Doubled" />
       <item itemvalue="Application.ReversedLines" />
-      <item itemvalue="Application.CopyFile" />
       <item itemvalue="Application.PrintEachLine" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Logs" />
         <item itemvalue="Application.ReversedOrder" />
         <item itemvalue="Application.ReversedLines" />
         <item itemvalue="Application.Doubled" />
         <item itemvalue="Application.PrintEachLine" />
-        <item itemvalue="Application.CopyFile" />
       </list>
     </recent_temporary>
   </component>
@@ -394,7 +395,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679306365441</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="File IO">
+      <created>1679309812009</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1679309812009</updated>
+    </task>
+    <task id="LOCAL-00041" summary="File IO">
+      <created>1679309851008</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1679309851008</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
