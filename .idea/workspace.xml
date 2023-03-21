@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Drawing and Graphics">
-      <change afterPath="$PROJECT_DIR$/src/FunctionToCenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConnectTheDots.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +45,16 @@
       <recent name="C:\www\java\repetitio\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FunctionToCenter">
+  <component name="RunManager" selected="Application.ConnectTheDots">
     <configuration name="Checkerboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Checkerboard" />
+      <module name="repetitio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConnectTheDots" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConnectTheDots" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,13 +89,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RainbowBoxFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RainbowBoxFunction" />
-      <module name="repetitio" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <module name="repetitio" />
       <method v="2">
@@ -97,18 +98,18 @@
     <list>
       <item itemvalue="Application.ElsoProject" />
       <item itemvalue="Application.Checkerboard" />
+      <item itemvalue="Application.ConnectTheDots" />
       <item itemvalue="Application.FunctionToCenter" />
       <item itemvalue="Application.PurpleSteps" />
       <item itemvalue="Application.PurpleSteps3d" />
-      <item itemvalue="Application.RainbowBoxFunction" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConnectTheDots" />
         <item itemvalue="Application.FunctionToCenter" />
         <item itemvalue="Application.Checkerboard" />
         <item itemvalue="Application.PurpleSteps3d" />
         <item itemvalue="Application.PurpleSteps" />
-        <item itemvalue="Application.RainbowBoxFunction" />
       </list>
     </recent_temporary>
   </component>
@@ -120,13 +121,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Function exercise">
-      <created>1678973071874</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1678973071874</updated>
     </task>
     <task id="LOCAL-00010" summary="String exercise">
       <created>1678999297721</created>
@@ -464,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679412618480</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Drawing and Graphics">
+      <created>1679413140106</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1679413140106</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
