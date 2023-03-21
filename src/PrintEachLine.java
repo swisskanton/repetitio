@@ -11,9 +11,9 @@ public class PrintEachLine {
         // If the program is unable to read the file (for example the file does not exist),
         // it should print the following error message: "Unable to read file: my-file.txt".
 
-        printFile("my-file.txt");
+        printFile("resources/my-file.txt");
         System.out.println();
-        printFile("src/my-file.txt");
+        printFile("src/resources/my-file.txt");
     }
 
     public static void printFile(String source) {
@@ -24,7 +24,7 @@ public class PrintEachLine {
                 System.out.println(line);
             }
         } catch (IOException e) {
-            System.out.println("Unable to read file: my-file.txt");
+            System.out.printf("Unable to read file: %s\n", source);
         }
     }
 }

@@ -11,7 +11,7 @@ import java.util.List;
 
 public class CountLines {
     public static void main(String[] args) {
-        System.out.println(countLines("src/my-file.txt"));
+        System.out.println(countLines("src/resources/my-file.txt"));
     }
 
     public static int countLines(String source) {

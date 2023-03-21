@@ -20,7 +20,7 @@ public class WriteMultipleLines {
     // error message instead.
 
     public static void main(String[] args) {
-        writeLines("src/my-file.txt", "apple", 3);
+        writeLines("src/resources/my-file.txt", "apple", 3);
     }
 
     public static void writeLines(String pathAndFilename, String word, int number) {

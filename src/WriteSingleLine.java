@@ -13,7 +13,7 @@ public class WriteSingleLine {
 
         List<String> line = new ArrayList<>();
         line.add("My name is Swisskanton.");
-        Path filePath = Paths.get("src/my-file.txt");
+        Path filePath = Paths.get("src/resources/my-file.txt");
         try {
             Files.write(filePath, line, StandardOpenOption.APPEND);
         } catch (IOException e) {

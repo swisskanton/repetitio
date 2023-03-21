@@ -13,8 +13,8 @@ public class CopyFile {
     // It should return a boolean that shows whether the copy was successful or not.
 
     public static void main(String[] args) {
-        String source = "src/my-file.txt";
-        String target = "src/my-target.txt";
+        String source = "src/resources/my-file.txt";
+        String target = "src/resources/my-target.txt";
         if (copy(source, target))
             System.out.println("The copy was successful.");
         else
