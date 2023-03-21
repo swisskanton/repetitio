@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Drawing and Graphics">
-      <change afterPath="$PROJECT_DIR$/src/FourRectangles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PositionSquare.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +44,7 @@
       <recent name="C:\www\java\repetitio\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FourRectangles">
+  <component name="RunManager" selected="Application.PositionSquare">
     <configuration name="CenteredSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CenteredSquare" />
       <module name="repetitio" />
@@ -75,15 +74,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoToCenter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GoToCenter" />
+    <configuration name="HorizontalLines" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HorizontalLines" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HorizontalLines" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HorizontalLines" />
+    <configuration name="PositionSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PositionSquare" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,16 +99,16 @@
       <item itemvalue="Application.CenteredSquare" />
       <item itemvalue="Application.Diagonals" />
       <item itemvalue="Application.FourRectangles" />
-      <item itemvalue="Application.GoToCenter" />
       <item itemvalue="Application.HorizontalLines" />
+      <item itemvalue="Application.PositionSquare" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PositionSquare" />
         <item itemvalue="Application.FourRectangles" />
         <item itemvalue="Application.CenteredSquare" />
         <item itemvalue="Application.Diagonals" />
         <item itemvalue="Application.HorizontalLines" />
-        <item itemvalue="Application.GoToCenter" />
       </list>
     </recent_temporary>
   </component>
@@ -121,20 +120,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Basic steps">
-      <created>1678790473797</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1678790473797</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Basic steps">
-      <created>1678796520367</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1678796520367</updated>
     </task>
     <task id="LOCAL-00003" summary="Basic steps">
       <created>1678811136501</created>
@@ -465,7 +450,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679398266493</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Drawing and Graphics">
+      <created>1679399225295</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1679399225296</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Drawing and Graphics">
+      <created>1679399327184</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1679399327184</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
