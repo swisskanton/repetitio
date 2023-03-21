@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Drawing and Graphics">
-      <change afterPath="$PROJECT_DIR$/src/PositionSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CenterBoxFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,14 @@
       <recent name="C:\www\java\repetitio\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PositionSquare">
+  <component name="RunManager" selected="Application.CenterBoxFunction">
+    <configuration name="CenterBoxFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CenterBoxFunction" />
+      <module name="repetitio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CenteredSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CenteredSquare" />
       <module name="repetitio" />
@@ -74,13 +82,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HorizontalLines" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HorizontalLines" />
-      <module name="repetitio" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PositionSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PositionSquare" />
       <module name="repetitio" />
@@ -96,19 +97,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
+      <item itemvalue="Application.CenterBoxFunction" />
       <item itemvalue="Application.CenteredSquare" />
       <item itemvalue="Application.Diagonals" />
       <item itemvalue="Application.FourRectangles" />
-      <item itemvalue="Application.HorizontalLines" />
       <item itemvalue="Application.PositionSquare" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CenterBoxFunction" />
         <item itemvalue="Application.PositionSquare" />
         <item itemvalue="Application.FourRectangles" />
         <item itemvalue="Application.CenteredSquare" />
         <item itemvalue="Application.Diagonals" />
-        <item itemvalue="Application.HorizontalLines" />
       </list>
     </recent_temporary>
   </component>
@@ -120,13 +121,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Basic steps">
-      <created>1678811136501</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1678811136501</updated>
     </task>
     <task id="LOCAL-00004" summary="Basic steps">
       <created>1678821082038</created>
@@ -464,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679399327184</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Drawing and Graphics">
+      <created>1679399773767</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1679399773767</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
