@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Drawing and Graphics">
-      <change afterPath="$PROJECT_DIR$/src/Checkerboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionToCenter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,14 +44,7 @@
       <recent name="C:\www\java\repetitio\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Checkerboard">
-    <configuration name="CenterBoxFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CenterBoxFunction" />
-      <module name="repetitio" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.FunctionToCenter">
     <configuration name="Checkerboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Checkerboard" />
       <module name="repetitio" />
@@ -62,6 +55,13 @@
     <configuration name="ElsoProject" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-18" />
       <option name="MAIN_CLASS_NAME" value="ElsoProject" />
+      <module name="repetitio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunctionToCenter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FunctionToCenter" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,18 +97,18 @@
     <list>
       <item itemvalue="Application.ElsoProject" />
       <item itemvalue="Application.Checkerboard" />
+      <item itemvalue="Application.FunctionToCenter" />
       <item itemvalue="Application.PurpleSteps" />
       <item itemvalue="Application.PurpleSteps3d" />
-      <item itemvalue="Application.CenterBoxFunction" />
       <item itemvalue="Application.RainbowBoxFunction" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FunctionToCenter" />
         <item itemvalue="Application.Checkerboard" />
         <item itemvalue="Application.PurpleSteps3d" />
         <item itemvalue="Application.PurpleSteps" />
         <item itemvalue="Application.RainbowBoxFunction" />
-        <item itemvalue="Application.CenterBoxFunction" />
       </list>
     </recent_temporary>
   </component>
@@ -120,13 +120,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Array exercises">
-      <created>1678906241614</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1678906241614</updated>
     </task>
     <task id="LOCAL-00009" summary="Function exercise">
       <created>1678973071874</created>
@@ -464,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679412029910</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Drawing and Graphics">
+      <created>1679412618480</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1679412618480</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
