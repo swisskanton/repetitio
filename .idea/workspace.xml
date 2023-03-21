@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="File IO">
+      <change afterPath="$PROJECT_DIR$/src/LineInTheMiddle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CopyFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CopyFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CountLines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CountLines.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrintEachLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrintEachLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WriteMultipleLines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WriteMultipleLines.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WriteSingleLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WriteSingleLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/my-file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/my-file.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +45,7 @@
       <recent name="C:\www\java\repetitio\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WriteSingleLine">
+  <component name="RunManager" selected="Application.LineInTheMiddle">
     <configuration name="CountLines" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CountLines" />
       <module name="repetitio" />
@@ -66,6 +61,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LineInTheMiddle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LineInTheMiddle" />
+      <module name="repetitio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Logs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Logs" />
       <module name="repetitio" />
@@ -75,13 +77,6 @@
     </configuration>
     <configuration name="PrintEachLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PrintEachLine" />
-      <module name="repetitio" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReversedOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReversedOrder" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -103,18 +98,18 @@
     <list>
       <item itemvalue="Application.ElsoProject" />
       <item itemvalue="Application.CountLines" />
+      <item itemvalue="Application.LineInTheMiddle" />
       <item itemvalue="Application.WriteSingleLine" />
       <item itemvalue="Application.Logs" />
-      <item itemvalue="Application.ReversedOrder" />
       <item itemvalue="Application.PrintEachLine" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LineInTheMiddle" />
         <item itemvalue="Application.WriteSingleLine" />
         <item itemvalue="Application.CountLines" />
         <item itemvalue="Application.PrintEachLine" />
         <item itemvalue="Application.Logs" />
-        <item itemvalue="Application.ReversedOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -421,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679328963450</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="File IO">
+      <created>1679390351895</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1679390351895</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
