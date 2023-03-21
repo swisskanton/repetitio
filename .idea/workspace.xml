@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Drawing and Graphics">
-      <change afterPath="$PROJECT_DIR$/src/PurpleSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PurpleSteps3d.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +45,7 @@
       <recent name="C:\www\java\repetitio\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PurpleSteps">
+  <component name="RunManager" selected="Application.PurpleSteps3d">
     <configuration name="CenterBoxFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CenterBoxFunction" />
       <module name="repetitio" />
@@ -61,13 +61,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FourRectangles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FourRectangles" />
-      <module name="repetitio" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PositionSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PositionSquare" />
       <module name="repetitio" />
@@ -77,6 +70,13 @@
     </configuration>
     <configuration name="PurpleSteps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PurpleSteps" />
+      <module name="repetitio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PurpleSteps3d" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PurpleSteps3d" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,18 +98,18 @@
     <list>
       <item itemvalue="Application.ElsoProject" />
       <item itemvalue="Application.PurpleSteps" />
+      <item itemvalue="Application.PurpleSteps3d" />
       <item itemvalue="Application.CenterBoxFunction" />
-      <item itemvalue="Application.FourRectangles" />
       <item itemvalue="Application.PositionSquare" />
       <item itemvalue="Application.RainbowBoxFunction" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PurpleSteps3d" />
         <item itemvalue="Application.PurpleSteps" />
         <item itemvalue="Application.RainbowBoxFunction" />
         <item itemvalue="Application.CenterBoxFunction" />
         <item itemvalue="Application.PositionSquare" />
-        <item itemvalue="Application.FourRectangles" />
       </list>
     </recent_temporary>
   </component>
@@ -121,13 +121,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Basic steps">
-      <created>1678884632448</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1678884632448</updated>
     </task>
     <task id="LOCAL-00007" summary="Basic steps">
       <created>1678898759757</created>
@@ -465,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679402646235</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Drawing and Graphics">
+      <created>1679411214893</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1679411214894</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
