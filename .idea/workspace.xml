@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Drawing and Graphics">
-      <change afterPath="$PROJECT_DIR$/src/ConnectTheDots.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StarryNight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +45,7 @@
       <recent name="C:\www\java\repetitio\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConnectTheDots">
+  <component name="RunManager" selected="Application.StarryNight">
     <configuration name="Checkerboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Checkerboard" />
       <module name="repetitio" />
@@ -75,15 +75,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PurpleSteps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PurpleSteps" />
+    <configuration name="PurpleSteps3d" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PurpleSteps3d" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PurpleSteps3d" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PurpleSteps3d" />
+    <configuration name="StarryNight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StarryNight" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,16 +100,16 @@
       <item itemvalue="Application.Checkerboard" />
       <item itemvalue="Application.ConnectTheDots" />
       <item itemvalue="Application.FunctionToCenter" />
-      <item itemvalue="Application.PurpleSteps" />
       <item itemvalue="Application.PurpleSteps3d" />
+      <item itemvalue="Application.StarryNight" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StarryNight" />
         <item itemvalue="Application.ConnectTheDots" />
         <item itemvalue="Application.FunctionToCenter" />
         <item itemvalue="Application.Checkerboard" />
         <item itemvalue="Application.PurpleSteps3d" />
-        <item itemvalue="Application.PurpleSteps" />
       </list>
     </recent_temporary>
   </component>
@@ -121,13 +121,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00010" summary="String exercise">
-      <created>1678999297721</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1678999297721</updated>
     </task>
     <task id="LOCAL-00011" summary="Data structures">
       <created>1679005402575</created>
@@ -465,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679413140106</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Drawing and Graphics">
+      <created>1679414424695</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1679414424695</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
