@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Drawing and Graphics">
-      <change afterPath="$PROJECT_DIR$/src/Diagonals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CenteredSquare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +45,14 @@
       <recent name="C:\www\java\repetitio\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Diagonals">
+  <component name="RunManager" selected="Application.CenteredSquare">
+    <configuration name="CenteredSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CenteredSquare" />
+      <module name="repetitio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ColoredBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ColoredBox" />
       <module name="repetitio" />
@@ -82,13 +89,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LineInTheMiddle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LineInTheMiddle" />
-      <module name="repetitio" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <module name="repetitio" />
       <method v="2">
@@ -97,19 +97,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
+      <item itemvalue="Application.CenteredSquare" />
       <item itemvalue="Application.ColoredBox" />
       <item itemvalue="Application.Diagonals" />
       <item itemvalue="Application.GoToCenter" />
       <item itemvalue="Application.HorizontalLines" />
-      <item itemvalue="Application.LineInTheMiddle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CenteredSquare" />
         <item itemvalue="Application.Diagonals" />
         <item itemvalue="Application.HorizontalLines" />
         <item itemvalue="Application.GoToCenter" />
         <item itemvalue="Application.ColoredBox" />
-        <item itemvalue="Application.LineInTheMiddle" />
       </list>
     </recent_temporary>
   </component>
@@ -451,7 +451,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679397127060</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Drawing and Graphics">
+      <created>1679397989881</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1679397989881</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
