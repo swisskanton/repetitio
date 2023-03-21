@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Drawing and Graphics">
-      <change afterPath="$PROJECT_DIR$/src/GoToCenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HorizontalLines.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,16 +45,9 @@
       <recent name="C:\www\java\repetitio\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GoToCenter">
+  <component name="RunManager" selected="Application.HorizontalLines">
     <configuration name="ColoredBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ColoredBox" />
-      <module name="repetitio" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountLines" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CountLines" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -69,6 +63,13 @@
     </configuration>
     <configuration name="GoToCenter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GoToCenter" />
+      <module name="repetitio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HorizontalLines" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HorizontalLines" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,18 +98,18 @@
     <list>
       <item itemvalue="Application.ElsoProject" />
       <item itemvalue="Application.ColoredBox" />
-      <item itemvalue="Application.CountLines" />
       <item itemvalue="Application.GoToCenter" />
+      <item itemvalue="Application.HorizontalLines" />
       <item itemvalue="Application.LineInTheMiddle" />
       <item itemvalue="Application.WriteSingleLine" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HorizontalLines" />
         <item itemvalue="Application.GoToCenter" />
         <item itemvalue="Application.ColoredBox" />
         <item itemvalue="Application.LineInTheMiddle" />
         <item itemvalue="Application.WriteSingleLine" />
-        <item itemvalue="Application.CountLines" />
       </list>
     </recent_temporary>
   </component>
@@ -436,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679392564992</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Drawing and Graphics">
+      <created>1679393482880</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1679393482880</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
