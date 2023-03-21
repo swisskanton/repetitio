@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Drawing and Graphics">
-      <change afterPath="$PROJECT_DIR$/src/ColoredBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GoToCenter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +44,7 @@
       <recent name="C:\www\java\repetitio\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ColoredBox">
+  <component name="RunManager" selected="Application.GoToCenter">
     <configuration name="ColoredBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ColoredBox" />
       <module name="repetitio" />
@@ -68,15 +67,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LineInTheMiddle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LineInTheMiddle" />
+    <configuration name="GoToCenter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GoToCenter" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintEachLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrintEachLine" />
+    <configuration name="LineInTheMiddle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LineInTheMiddle" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,17 +98,17 @@
       <item itemvalue="Application.ElsoProject" />
       <item itemvalue="Application.ColoredBox" />
       <item itemvalue="Application.CountLines" />
+      <item itemvalue="Application.GoToCenter" />
       <item itemvalue="Application.LineInTheMiddle" />
       <item itemvalue="Application.WriteSingleLine" />
-      <item itemvalue="Application.PrintEachLine" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GoToCenter" />
         <item itemvalue="Application.ColoredBox" />
         <item itemvalue="Application.LineInTheMiddle" />
         <item itemvalue="Application.WriteSingleLine" />
         <item itemvalue="Application.CountLines" />
-        <item itemvalue="Application.PrintEachLine" />
       </list>
     </recent_temporary>
   </component>
@@ -430,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679391531253</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Drawing and Graphics">
+      <created>1679392564992</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1679392564992</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
