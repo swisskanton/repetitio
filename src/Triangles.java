@@ -3,24 +3,25 @@ import java.awt.*;
 
 import static javax.swing.WindowConstants.EXIT_ON_CLOSE;
 
-public class EnvelopeStar {
+public class Triangles {
     public static void drawImage(Graphics graphics) {
         // Reproduce this:
-        // src/sources/drawingProjectEnvelopeStar.png
+        // src/sources/drawingProjectTriangles.png
 
-        int size = WIDTH / 2;
-        drawQuarters(0, 0, size, graphics);
+        int size = 14;
+        int x = WIDTH / 2;
+        int y = 0;
+        for (int i = 0; i < 21; i++) {
+            for (int j = 0; j <= i; j++) {
+                drawTriangle(x - i * size / 2 + j * size, y + i * size, size, graphics);
+            }
+        }
     }
 
-    public static void drawQuarters(int x, int y ,int size, Graphics graphics) {
-        int step = size / 14;
-        graphics.setColor(Color.green);
-        for (int i = 0; i < 15; i++) {
-            graphics.drawLine(size, y + (i + 1) * step, x + size - (i + 1) * step, y + size);
-            graphics.drawLine(x + size, y + (i + 1) * step, x + size + (i + 1) * step, y + size);
-            graphics.drawLine(x + size - (i + 1) * step, y + size, size, y + HEIGHT - (i + 1) * step);
-            graphics.drawLine(x + size + (i + 1) * step, size, size, y + HEIGHT - (i + 1) * step);
-        }
+    public static void drawTriangle(int x, int y ,int size, Graphics graphics) {
+        graphics.drawLine(x - size / 2, y + size, x, y);
+        graphics.drawLine(x, y, x + size / 2, y + size);
+        graphics.drawLine(x - size / 2, y + size, x + size / 2, y + size);
     }
 
     static int WIDTH = 320;
