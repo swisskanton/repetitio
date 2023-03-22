@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Drawing Project">
-      <change afterPath="$PROJECT_DIR$/src/Triangles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SuperHexagon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EnvelopeStar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EnvelopeStar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +45,7 @@
       <recent name="C:\www\java\repetitio\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Triangles">
+  <component name="RunManager" selected="Application.SuperHexagon">
     <configuration name="ElsoProject" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-18" />
       <option name="MAIN_CLASS_NAME" value="ElsoProject" />
@@ -62,13 +61,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FourRectangles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FourRectangles" />
-      <module name="repetitio" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LinePlay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinePlay" />
       <module name="repetitio" />
@@ -78,6 +70,13 @@
     </configuration>
     <configuration name="LinePlayQuarters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinePlayQuarters" />
+      <module name="repetitio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuperHexagon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SuperHexagon" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,18 +98,18 @@
     <list>
       <item itemvalue="Application.ElsoProject" />
       <item itemvalue="Application.EnvelopeStar" />
+      <item itemvalue="Application.SuperHexagon" />
       <item itemvalue="Application.Triangles" />
       <item itemvalue="Application.LinePlayQuarters" />
-      <item itemvalue="Application.FourRectangles" />
       <item itemvalue="Application.LinePlay" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SuperHexagon" />
         <item itemvalue="Application.Triangles" />
         <item itemvalue="Application.EnvelopeStar" />
         <item itemvalue="Application.LinePlayQuarters" />
         <item itemvalue="Application.LinePlay" />
-        <item itemvalue="Application.FourRectangles" />
       </list>
     </recent_temporary>
   </component>
@@ -122,13 +121,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Data structures">
-      <created>1679130472203</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1679130472203</updated>
     </task>
     <task id="LOCAL-00017" summary="Data structures">
       <created>1679139701276</created>
@@ -466,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679491168617</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Drawing Project">
+      <created>1679495019057</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1679495019057</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
