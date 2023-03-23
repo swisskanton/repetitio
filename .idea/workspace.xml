@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Recursion and drawing">
-      <change afterPath="$PROJECT_DIR$/src/Hexagons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FractalTriangles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,10 +45,17 @@
       <recent name="C:\www\java\repetitio\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Hexagons">
+  <component name="RunManager" selected="Application.FractalTriangles">
     <configuration name="ElsoProject" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-18" />
       <option name="MAIN_CLASS_NAME" value="ElsoProject" />
+      <module name="repetitio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FractalTriangles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FractalTriangles" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -75,13 +82,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaximumFinder" />
-      <module name="repetitio" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Squares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Squares" />
       <module name="repetitio" />
@@ -97,19 +97,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
+      <item itemvalue="Application.FractalTriangles" />
       <item itemvalue="Application.Hexagons" />
       <item itemvalue="Application.Squares" />
       <item itemvalue="Application.GreatestCommonDivisor" />
       <item itemvalue="Application.MaxSum" />
-      <item itemvalue="Application.MaximumFinder" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FractalTriangles" />
         <item itemvalue="Application.Hexagons" />
         <item itemvalue="Application.Squares" />
         <item itemvalue="Application.MaxSum" />
         <item itemvalue="Application.GreatestCommonDivisor" />
-        <item itemvalue="Application.MaximumFinder" />
       </list>
     </recent_temporary>
   </component>
@@ -121,13 +121,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00033" summary="File IO - writing files">
-      <created>1679237408945</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1679237408945</updated>
     </task>
     <task id="LOCAL-00034" summary="File IO - writing files">
       <created>1679249963226</created>
@@ -465,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679597081720</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Recursion and drawing">
+      <created>1679598341461</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1679598341461</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
