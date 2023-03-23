@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Recursion">
-      <change afterPath="$PROJECT_DIR$/src/MaxSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Squares.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,23 +29,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last.edited.regexp": "Sample Text",
-    "last_opened_file_path": "C:/www/java/repetitio/src/resources",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "editor.preferences.completion"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last.edited.regexp&quot;: &quot;Sample Text&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/www/java/repetitio/src/resources&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\www\java\repetitio\src\resources" />
       <recent name="C:\www\java\repetitio\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxSum">
+  <component name="RunManager" selected="Application.Squares">
     <configuration name="ElsoProject" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-18" />
       <option name="MAIN_CLASS_NAME" value="ElsoProject" />
@@ -82,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringsAgainAndAgain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringsAgainAndAgain" />
+    <configuration name="Squares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Squares" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,19 +97,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
+      <item itemvalue="Application.Squares" />
       <item itemvalue="Application.Fibonacci" />
       <item itemvalue="Application.GreatestCommonDivisor" />
       <item itemvalue="Application.MaxSum" />
       <item itemvalue="Application.MaximumFinder" />
-      <item itemvalue="Application.StringsAgainAndAgain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Squares" />
         <item itemvalue="Application.MaxSum" />
         <item itemvalue="Application.GreatestCommonDivisor" />
         <item itemvalue="Application.MaximumFinder" />
         <item itemvalue="Application.Fibonacci" />
-        <item itemvalue="Application.StringsAgainAndAgain" />
       </list>
     </recent_temporary>
   </component>
@@ -121,13 +121,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00030" summary="File IO">
-      <created>1679230029316</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1679230029316</updated>
     </task>
     <task id="LOCAL-00031" summary="File IO">
       <created>1679230065107</created>
@@ -465,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679585117734</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Recursion">
+      <created>1679586903462</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1679586903462</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
