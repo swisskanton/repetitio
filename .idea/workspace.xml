@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Recursion and drawing">
-      <change afterPath="$PROJECT_DIR$/src/FractalTriangles.java" afterDir="false" />
+    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Fractal">
+      <change afterPath="$PROJECT_DIR$/src/FractalCircles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +45,7 @@
       <recent name="C:\www\java\repetitio\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FractalTriangles">
+  <component name="RunManager" selected="Application.FractalCircles">
     <configuration name="ElsoProject" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-18" />
       <option name="MAIN_CLASS_NAME" value="ElsoProject" />
@@ -54,15 +54,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FractalTriangles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FractalTriangles" />
+    <configuration name="FractalCircles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FractalCircles" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GreatestCommonDivisor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GreatestCommonDivisor" />
+    <configuration name="FractalTriangles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FractalTriangles" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,19 +97,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
+      <item itemvalue="Application.FractalCircles" />
       <item itemvalue="Application.FractalTriangles" />
       <item itemvalue="Application.Hexagons" />
       <item itemvalue="Application.Squares" />
-      <item itemvalue="Application.GreatestCommonDivisor" />
       <item itemvalue="Application.MaxSum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FractalCircles" />
         <item itemvalue="Application.FractalTriangles" />
         <item itemvalue="Application.Hexagons" />
         <item itemvalue="Application.Squares" />
         <item itemvalue="Application.MaxSum" />
-        <item itemvalue="Application.GreatestCommonDivisor" />
       </list>
     </recent_temporary>
   </component>
@@ -121,13 +121,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00034" summary="File IO - writing files">
-      <created>1679249963226</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1679249963226</updated>
     </task>
     <task id="LOCAL-00035" summary="File IO - writing files">
       <created>1679250208379</created>
@@ -465,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679598341461</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Fractal">
+      <created>1679600609869</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1679600609869</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,7 +494,8 @@
     <MESSAGE value="Drawing Project" />
     <MESSAGE value="Recursion" />
     <MESSAGE value="Recursion and drawing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Recursion and drawing" />
+    <MESSAGE value="Fractal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fractal" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
