@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Fractal">
-      <change afterPath="$PROJECT_DIR$/src/FractalSquareGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FractalKochLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FractalKochSnowflake.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +46,7 @@
       <recent name="C:\www\java\repetitio\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FractalSquareGrid">
+  <component name="RunManager" selected="Application.FractalKochSnowflake">
     <configuration name="ElsoProject" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-18" />
       <option name="MAIN_CLASS_NAME" value="ElsoProject" />
@@ -54,15 +55,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FractalCircles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FractalCircles" />
+    <configuration name="FractalHexagon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FractalHexagon" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FractalHexagon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FractalHexagon" />
+    <configuration name="FractalKochLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FractalKochLine" />
+      <module name="repetitio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FractalKochSnowflake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FractalKochSnowflake" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,13 +90,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FractalTriangles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FractalTriangles" />
-      <module name="repetitio" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <module name="repetitio" />
       <method v="2">
@@ -97,19 +98,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
-      <item itemvalue="Application.FractalCircles" />
+      <item itemvalue="Application.FractalKochSnowflake" />
       <item itemvalue="Application.FractalHexagon" />
+      <item itemvalue="Application.FractalKochLine" />
       <item itemvalue="Application.FractalSierpinskyCarpet" />
       <item itemvalue="Application.FractalSquareGrid" />
-      <item itemvalue="Application.FractalTriangles" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FractalKochSnowflake" />
+        <item itemvalue="Application.FractalKochLine" />
         <item itemvalue="Application.FractalSquareGrid" />
         <item itemvalue="Application.FractalSierpinskyCarpet" />
         <item itemvalue="Application.FractalHexagon" />
-        <item itemvalue="Application.FractalCircles" />
-        <item itemvalue="Application.FractalTriangles" />
       </list>
     </recent_temporary>
   </component>
@@ -121,13 +122,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00038" summary="File IO">
-      <created>1679304229922</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1679304229922</updated>
     </task>
     <task id="LOCAL-00039" summary="File IO">
       <created>1679306365426</created>
@@ -465,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679665005898</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="Fractal">
+      <created>1679667030951</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1679667030951</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
