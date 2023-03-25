@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Fractal">
+      <change afterPath="$PROJECT_DIR$/src/FractalTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,17 +45,10 @@
       <recent name="C:\www\java\repetitio\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FractalKochSnowflake">
+  <component name="RunManager" selected="Application.FractalTree">
     <configuration name="ElsoProject" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-18" />
       <option name="MAIN_CLASS_NAME" value="ElsoProject" />
-      <module name="repetitio" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FractalHexagon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FractalHexagon" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,6 +82,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FractalTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FractalTree" />
+      <module name="repetitio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <module name="repetitio" />
       <method v="2">
@@ -97,18 +98,18 @@
     <list>
       <item itemvalue="Application.ElsoProject" />
       <item itemvalue="Application.FractalKochSnowflake" />
-      <item itemvalue="Application.FractalHexagon" />
+      <item itemvalue="Application.FractalTree" />
       <item itemvalue="Application.FractalKochLine" />
       <item itemvalue="Application.FractalSierpinskyCarpet" />
       <item itemvalue="Application.FractalSquareGrid" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FractalTree" />
         <item itemvalue="Application.FractalKochSnowflake" />
         <item itemvalue="Application.FractalKochLine" />
         <item itemvalue="Application.FractalSquareGrid" />
         <item itemvalue="Application.FractalSierpinskyCarpet" />
-        <item itemvalue="Application.FractalHexagon" />
       </list>
     </recent_temporary>
   </component>
@@ -120,13 +121,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00040" summary="File IO">
-      <created>1679309812009</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1679309812009</updated>
     </task>
     <task id="LOCAL-00041" summary="File IO">
       <created>1679309851008</created>
@@ -464,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679678626167</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="Fractal pictures">
+      <created>1679679370220</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1679679370220</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,7 +495,8 @@
     <MESSAGE value="Recursion" />
     <MESSAGE value="Recursion and drawing" />
     <MESSAGE value="Fractal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fractal" />
+    <MESSAGE value="Fractal pictures" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fractal pictures" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
