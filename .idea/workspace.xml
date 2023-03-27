@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Fractal">
-      <change afterPath="$PROJECT_DIR$/src/FractalTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PostIt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +46,7 @@
       <recent name="C:\www\java\repetitio\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FractalTree">
+  <component name="RunManager" selected="Application.PostIt">
     <configuration name="ElsoProject" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-18" />
       <option name="MAIN_CLASS_NAME" value="ElsoProject" />
@@ -68,13 +69,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FractalSierpinskyCarpet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FractalSierpinskyCarpet" />
-      <module name="repetitio" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FractalSquareGrid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FractalSquareGrid" />
       <module name="repetitio" />
@@ -89,6 +83,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PostIt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PostIt" />
+      <module name="repetitio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <module name="repetitio" />
       <method v="2">
@@ -97,19 +98,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
+      <item itemvalue="Application.PostIt" />
       <item itemvalue="Application.FractalKochSnowflake" />
       <item itemvalue="Application.FractalTree" />
       <item itemvalue="Application.FractalKochLine" />
-      <item itemvalue="Application.FractalSierpinskyCarpet" />
       <item itemvalue="Application.FractalSquareGrid" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PostIt" />
         <item itemvalue="Application.FractalTree" />
         <item itemvalue="Application.FractalKochSnowflake" />
         <item itemvalue="Application.FractalKochLine" />
         <item itemvalue="Application.FractalSquareGrid" />
-        <item itemvalue="Application.FractalSierpinskyCarpet" />
       </list>
     </recent_temporary>
   </component>
@@ -121,13 +122,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00041" summary="File IO">
-      <created>1679309851008</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1679309851008</updated>
     </task>
     <task id="LOCAL-00042" summary="File IO">
       <created>1679328963450</created>
@@ -465,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679679370220</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="Fractal">
+      <created>1679733008275</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1679733008276</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,9 +495,9 @@
     <MESSAGE value="Drawing Project" />
     <MESSAGE value="Recursion" />
     <MESSAGE value="Recursion and drawing" />
-    <MESSAGE value="Fractal" />
     <MESSAGE value="Fractal pictures" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fractal pictures" />
+    <MESSAGE value="Fractal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fractal" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
