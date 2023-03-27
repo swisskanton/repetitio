@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Classes and objects">
-      <change afterPath="$PROJECT_DIR$/src/Sharpie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CounterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +15,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -29,23 +31,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last.edited.regexp&quot;: &quot;Sample Text&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/www/java/repetitio/src/resources&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "last.edited.regexp": "Sample Text",
+    "last_opened_file_path": "C:/www/java/repetitio/src/resources",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "editor.preferences.completion"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\www\java\repetitio\src\resources" />
       <recent name="C:\www\java\repetitio\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Animal">
+  <component name="RunManager" selected="JUnit.CounterTest">
     <configuration name="Animal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Animal" />
       <module name="repetitio" />
@@ -56,13 +65,6 @@
     <configuration name="ElsoProject" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-18" />
       <option name="MAIN_CLASS_NAME" value="ElsoProject" />
-      <module name="repetitio" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FractalKochLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FractalKochLine" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,21 +97,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CounterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="repetitio" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CounterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
       <item itemvalue="Application.Animal" />
       <item itemvalue="Application.PostIt" />
       <item itemvalue="Application.FractalKochSnowflake" />
       <item itemvalue="Application.FractalTree" />
-      <item itemvalue="Application.FractalKochLine" />
+      <item itemvalue="JUnit.CounterTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CounterTest" />
         <item itemvalue="Application.Animal" />
         <item itemvalue="Application.PostIt" />
         <item itemvalue="Application.FractalTree" />
         <item itemvalue="Application.FractalKochSnowflake" />
-        <item itemvalue="Application.FractalKochLine" />
       </list>
     </recent_temporary>
   </component>
@@ -121,13 +132,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Drawing and Graphics">
-      <created>1679392564992</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1679392564992</updated>
     </task>
     <task id="LOCAL-00046" summary="Drawing and Graphics">
       <created>1679393482880</created>
@@ -465,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679930314040</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="Classes and objects">
+      <created>1679943060405</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1679943060408</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
