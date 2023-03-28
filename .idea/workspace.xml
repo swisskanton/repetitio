@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Classes and objects">
-      <change afterPath="$PROJECT_DIR$/src/Domino.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dominoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TeacherAndStudent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +61,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Dominoes">
+  <component name="RunManager" selected="Application.TeacherAndStudent">
     <configuration name="AFleetOfThings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AFleetOfThings" />
       <module name="repetitio" />
@@ -97,17 +98,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
+    <configuration name="TeacherAndStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TeacherAndStudent" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CounterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="true" type="Application" factoryName="Application">
       <module name="repetitio" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CounterTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,15 +117,15 @@
       <item itemvalue="Application.DiceSet" />
       <item itemvalue="Application.Dominoes" />
       <item itemvalue="Application.PokemonMain" />
-      <item itemvalue="JUnit.CounterTest" />
+      <item itemvalue="Application.TeacherAndStudent" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TeacherAndStudent" />
         <item itemvalue="Application.Dominoes" />
         <item itemvalue="Application.DiceSet" />
         <item itemvalue="Application.AFleetOfThings" />
         <item itemvalue="Application.PokemonMain" />
-        <item itemvalue="JUnit.CounterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -138,13 +137,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00050" summary="Drawing and Graphics">
-      <created>1679399225295</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1679399225296</updated>
     </task>
     <task id="LOCAL-00051" summary="Drawing and Graphics">
       <created>1679399327184</created>
@@ -482,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679998109354</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="Classes and objects">
+      <created>1680000516938</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1680000516938</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
