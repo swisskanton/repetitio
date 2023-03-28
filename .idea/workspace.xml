@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Classes and objects">
-      <change afterPath="$PROJECT_DIR$/src/SharpieSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Farm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,14 +59,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SharpieSet">
-    <configuration name="DiceSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DiceSet" />
-      <module name="repetitio" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Farm">
     <configuration name="Dominoes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Dominoes" />
       <module name="repetitio" />
@@ -77,6 +70,13 @@
     <configuration name="ElsoProject" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-18" />
       <option name="MAIN_CLASS_NAME" value="ElsoProject" />
+      <module name="repetitio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Farm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Farm" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,19 +111,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
+      <item itemvalue="Application.Farm" />
       <item itemvalue="Application.PetrolStation" />
       <item itemvalue="Application.SharpieSet" />
-      <item itemvalue="Application.DiceSet" />
       <item itemvalue="Application.Dominoes" />
       <item itemvalue="Application.TeacherAndStudent" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Farm" />
         <item itemvalue="Application.SharpieSet" />
         <item itemvalue="Application.PetrolStation" />
         <item itemvalue="Application.TeacherAndStudent" />
         <item itemvalue="Application.Dominoes" />
-        <item itemvalue="Application.DiceSet" />
       </list>
     </recent_temporary>
   </component>
@@ -135,13 +135,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00053" summary="Drawing and Graphics">
-      <created>1679401272919</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1679401272921</updated>
     </task>
     <task id="LOCAL-00054" summary="Drawing and Graphics">
       <created>1679402646233</created>
@@ -479,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680013099030</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="Classes and objects">
+      <created>1680015742450</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1680015742450</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
