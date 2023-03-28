@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Classes and objects">
-      <change afterPath="$PROJECT_DIR$/src/DiceSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domino.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dominoes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +60,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DiceSet">
+  <component name="RunManager" selected="Application.Dominoes">
     <configuration name="AFleetOfThings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AFleetOfThings" />
       <module name="repetitio" />
@@ -67,15 +68,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Animal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Animal" />
+    <configuration name="DiceSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DiceSet" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiceSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DiceSet" />
+    <configuration name="Dominoes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dominoes" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,17 +116,17 @@
       <item itemvalue="Application.ElsoProject" />
       <item itemvalue="Application.AFleetOfThings" />
       <item itemvalue="Application.DiceSet" />
+      <item itemvalue="Application.Dominoes" />
       <item itemvalue="Application.PokemonMain" />
-      <item itemvalue="Application.Animal" />
       <item itemvalue="JUnit.CounterTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dominoes" />
         <item itemvalue="Application.DiceSet" />
         <item itemvalue="Application.AFleetOfThings" />
         <item itemvalue="Application.PokemonMain" />
         <item itemvalue="JUnit.CounterTest" />
-        <item itemvalue="Application.Animal" />
       </list>
     </recent_temporary>
   </component>
@@ -137,13 +138,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00049" summary="Drawing and Graphics">
-      <created>1679398266493</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1679398266493</updated>
     </task>
     <task id="LOCAL-00050" summary="Drawing and Graphics">
       <created>1679399225295</created>
@@ -481,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679996053915</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="Classes and objects">
+      <created>1679998109354</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1679998109354</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
