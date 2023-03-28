@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Classes and objects">
-      <change afterPath="$PROJECT_DIR$/src/PetrolStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SharpieSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,14 +59,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PetrolStation">
-    <configuration name="AFleetOfThings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AFleetOfThings" />
-      <module name="repetitio" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SharpieSet">
     <configuration name="DiceSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DiceSet" />
       <module name="repetitio" />
@@ -96,6 +89,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SharpieSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SharpieSet" />
+      <module name="repetitio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TeacherAndStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TeacherAndStudent" />
       <module name="repetitio" />
@@ -112,18 +112,18 @@
     <list>
       <item itemvalue="Application.ElsoProject" />
       <item itemvalue="Application.PetrolStation" />
-      <item itemvalue="Application.AFleetOfThings" />
+      <item itemvalue="Application.SharpieSet" />
       <item itemvalue="Application.DiceSet" />
       <item itemvalue="Application.Dominoes" />
       <item itemvalue="Application.TeacherAndStudent" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SharpieSet" />
         <item itemvalue="Application.PetrolStation" />
         <item itemvalue="Application.TeacherAndStudent" />
         <item itemvalue="Application.Dominoes" />
         <item itemvalue="Application.DiceSet" />
-        <item itemvalue="Application.AFleetOfThings" />
       </list>
     </recent_temporary>
   </component>
@@ -135,13 +135,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00052" summary="Drawing and Graphics">
-      <created>1679399773767</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1679399773767</updated>
     </task>
     <task id="LOCAL-00053" summary="Drawing and Graphics">
       <created>1679401272919</created>
@@ -479,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680002034734</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="Classes and objects">
+      <created>1680013099029</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1680013099030</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
