@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Classes and objects">
-      <change afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TeacherAndStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PetrolStation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +59,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TeacherAndStudent">
+  <component name="RunManager" selected="Application.PetrolStation">
     <configuration name="AFleetOfThings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AFleetOfThings" />
       <module name="repetitio" />
@@ -91,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PokemonMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PokemonMain" />
+    <configuration name="PetrolStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PetrolStation" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,19 +111,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
+      <item itemvalue="Application.PetrolStation" />
       <item itemvalue="Application.AFleetOfThings" />
       <item itemvalue="Application.DiceSet" />
       <item itemvalue="Application.Dominoes" />
-      <item itemvalue="Application.PokemonMain" />
       <item itemvalue="Application.TeacherAndStudent" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PetrolStation" />
         <item itemvalue="Application.TeacherAndStudent" />
         <item itemvalue="Application.Dominoes" />
         <item itemvalue="Application.DiceSet" />
         <item itemvalue="Application.AFleetOfThings" />
-        <item itemvalue="Application.PokemonMain" />
       </list>
     </recent_temporary>
   </component>
@@ -137,13 +135,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00051" summary="Drawing and Graphics">
-      <created>1679399327184</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1679399327184</updated>
     </task>
     <task id="LOCAL-00052" summary="Drawing and Graphics">
       <created>1679399773767</created>
@@ -481,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680000516938</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="Classes and objects">
+      <created>1680002034734</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1680002034734</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
