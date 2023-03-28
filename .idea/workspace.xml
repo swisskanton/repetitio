@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Classes and objects">
-      <change afterPath="$PROJECT_DIR$/src/AFleet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AFleetOfThings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AThing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DiceSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +59,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AFleetOfThings">
+  <component name="RunManager" selected="Application.DiceSet">
     <configuration name="AFleetOfThings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AFleetOfThings" />
       <module name="repetitio" />
@@ -72,6 +69,13 @@
     </configuration>
     <configuration name="Animal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Animal" />
+      <module name="repetitio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiceSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DiceSet" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,13 +91,6 @@
     </configuration>
     <configuration name="PokemonMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PokemonMain" />
-      <module name="repetitio" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PostIt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PostIt" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,18 +114,18 @@
     <list>
       <item itemvalue="Application.ElsoProject" />
       <item itemvalue="Application.AFleetOfThings" />
+      <item itemvalue="Application.DiceSet" />
       <item itemvalue="Application.PokemonMain" />
       <item itemvalue="Application.Animal" />
-      <item itemvalue="Application.PostIt" />
       <item itemvalue="JUnit.CounterTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DiceSet" />
         <item itemvalue="Application.AFleetOfThings" />
         <item itemvalue="Application.PokemonMain" />
         <item itemvalue="JUnit.CounterTest" />
         <item itemvalue="Application.Animal" />
-        <item itemvalue="Application.PostIt" />
       </list>
     </recent_temporary>
   </component>
@@ -140,13 +137,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00048" summary="Drawing and Graphics">
-      <created>1679397989881</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1679397989881</updated>
     </task>
     <task id="LOCAL-00049" summary="Drawing and Graphics">
       <created>1679398266493</created>
@@ -484,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679992116015</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="Classes and objects">
+      <created>1679996053915</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1679996053915</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
