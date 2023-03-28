@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Classes and objects">
-      <change afterPath="$PROJECT_DIR$/src/Farm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Blog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,9 +59,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Farm">
-    <configuration name="Dominoes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dominoes" />
+  <component name="RunManager" selected="Application.Blog">
+    <configuration name="Blog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Blog" />
+      <module name="repetitio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogPost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BlogPost" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,13 +103,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TeacherAndStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TeacherAndStudent" />
-      <module name="repetitio" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <module name="repetitio" />
       <method v="2">
@@ -111,19 +111,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
+      <item itemvalue="Application.Blog" />
+      <item itemvalue="Application.BlogPost" />
       <item itemvalue="Application.Farm" />
       <item itemvalue="Application.PetrolStation" />
       <item itemvalue="Application.SharpieSet" />
-      <item itemvalue="Application.Dominoes" />
-      <item itemvalue="Application.TeacherAndStudent" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Blog" />
+        <item itemvalue="Application.BlogPost" />
         <item itemvalue="Application.Farm" />
         <item itemvalue="Application.SharpieSet" />
         <item itemvalue="Application.PetrolStation" />
-        <item itemvalue="Application.TeacherAndStudent" />
-        <item itemvalue="Application.Dominoes" />
       </list>
     </recent_temporary>
   </component>
@@ -135,13 +135,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00054" summary="Drawing and Graphics">
-      <created>1679402646233</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1679402646235</updated>
     </task>
     <task id="LOCAL-00055" summary="Drawing and Graphics">
       <created>1679411214893</created>
@@ -479,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680015742450</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="Classes and objects">
+      <created>1680020188910</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1680020188924</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
