@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Classes and objects">
-      <change afterPath="$PROJECT_DIR$/src/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bootcamp/Bootcamp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bootcamp/Cohort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bootcamp/Mentor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bootcamp/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bootcamp/Sponsor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bootcamp/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +64,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Blog">
+  <component name="RunManager" selected="Application.Bootcamp">
     <configuration name="Blog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Blog" />
       <module name="repetitio" />
@@ -74,6 +79,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Bootcamp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bootcamp.Bootcamp" />
+      <module name="repetitio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bootcamp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ElsoProject" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-18" />
       <option name="MAIN_CLASS_NAME" value="ElsoProject" />
@@ -84,13 +102,6 @@
     </configuration>
     <configuration name="Farm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Farm" />
-      <module name="repetitio" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PetrolStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PetrolStation" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,19 +122,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
+      <item itemvalue="Application.Bootcamp" />
       <item itemvalue="Application.Blog" />
       <item itemvalue="Application.BlogPost" />
       <item itemvalue="Application.Farm" />
-      <item itemvalue="Application.PetrolStation" />
       <item itemvalue="Application.SharpieSet" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bootcamp" />
         <item itemvalue="Application.Blog" />
         <item itemvalue="Application.BlogPost" />
         <item itemvalue="Application.Farm" />
         <item itemvalue="Application.SharpieSet" />
-        <item itemvalue="Application.PetrolStation" />
       </list>
     </recent_temporary>
   </component>
@@ -135,13 +146,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00055" summary="Drawing and Graphics">
-      <created>1679411214893</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1679411214894</updated>
     </task>
     <task id="LOCAL-00056" summary="Drawing and Graphics">
       <created>1679412029910</created>
@@ -479,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680020188924</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="Classes and objects">
+      <created>1680022316106</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1680022316106</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
