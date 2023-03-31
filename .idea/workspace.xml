@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Abstract classes exercise">
-      <change afterPath="$PROJECT_DIR$/src/flyable/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flyable/Flyable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flyable/Helicopter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flyable/Vehicle.java" afterDir="false" />
+    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Abstract classes and interfaces exercise">
+      <change afterPath="$PROJECT_DIR$/src/printable/Domino.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/printable/Printable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/printable/Todo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -65,10 +65,23 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Zoo">
+  <component name="RunManager" selected="Application.Todo">
     <configuration name="AppMusic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AppMusic" />
       <module name="repetitio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Domino" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="printable.Domino" />
+      <module name="repetitio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="printable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -81,8 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Gnirts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="implementCharSequence.Gnirts" />
+    <configuration name="ShiftedCharSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="implementCharSequence.ShiftedCharSequence" />
       <module name="repetitio" />
       <extension name="coverage">
         <pattern>
@@ -94,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShiftedCharSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="implementCharSequence.ShiftedCharSequence" />
+    <configuration name="Todo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="printable.Todo" />
       <module name="repetitio" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="implementCharSequence.*" />
+          <option name="PATTERN" value="printable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,34 +133,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cloneable.Bootcamp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cloneable.Bootcamp" />
-      <module name="repetitio" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cloneable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
+      <item itemvalue="Application.Domino" />
+      <item itemvalue="Application.Todo" />
       <item itemvalue="Application.AppMusic" />
-      <item itemvalue="Application.Gnirts" />
       <item itemvalue="Application.ShiftedCharSequence" />
       <item itemvalue="Application.Zoo" />
-      <item itemvalue="Application.cloneable.Bootcamp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Todo" />
+        <item itemvalue="Application.Domino" />
         <item itemvalue="Application.Zoo" />
         <item itemvalue="Application.AppMusic" />
         <item itemvalue="Application.ShiftedCharSequence" />
-        <item itemvalue="Application.Gnirts" />
-        <item itemvalue="Application.cloneable.Bootcamp" />
       </list>
     </recent_temporary>
   </component>
@@ -159,13 +159,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00061" summary="Drawing Project">
-      <created>1679429775004</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1679429775005</updated>
     </task>
     <task id="LOCAL-00062" summary="Drawing Project">
       <created>1679429804473</created>
@@ -503,7 +496,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680251686022</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="Abstract classes and interfaces exercise">
+      <created>1680274900074</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1680274900074</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -540,7 +540,8 @@
     <MESSAGE value="Interface exercise" />
     <MESSAGE value="gitignore setting" />
     <MESSAGE value="Abstract classes exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Abstract classes exercise" />
+    <MESSAGE value="Abstract classes and interfaces exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Abstract classes and interfaces exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
