@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="gitignore setting">
-      <change afterPath="$PROJECT_DIR$/src/AppMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Zoo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/music/BassGuitar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/music/ElectricGuitar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/music/Instrument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/music/StringedInstrument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/music/Violin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zoo/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zoo/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zoo/Mammal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zoo/Reptile.java" afterDir="false" />
+    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Abstract classes exercise">
+      <change afterPath="$PROJECT_DIR$/src/flyable/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/flyable/Flyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/flyable/Helicopter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/flyable/Vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -166,13 +159,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00060" summary="Drawing and Graphics">
-      <created>1679416023474</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1679416023474</updated>
     </task>
     <task id="LOCAL-00061" summary="Drawing Project">
       <created>1679429775004</created>
@@ -510,7 +496,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680203020254</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="Abstract classes exercise">
+      <created>1680251686021</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1680251686022</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -546,7 +539,8 @@
     <MESSAGE value="Inheritance exercise" />
     <MESSAGE value="Interface exercise" />
     <MESSAGE value="gitignore setting" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore setting" />
+    <MESSAGE value="Abstract classes exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Abstract classes exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
