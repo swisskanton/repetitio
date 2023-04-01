@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Interface exercise">
-      <change afterPath="$PROJECT_DIR$/src/comparable/Domino.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/comparable/DominoesComparable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comparable/Fleet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comparable/FleetOfThings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comparable/Thing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +68,7 @@
       <recent name="comparable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DominoesComparable">
+  <component name="RunManager" selected="Application.FleetOfThings">
     <configuration name="DoableHomework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DoableHomework" />
       <module name="repetitio" />
@@ -89,8 +89,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DominoesComparable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="comparable.DominoesComparable" />
+    <configuration name="ElsoProject" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-18" />
+      <option name="MAIN_CLASS_NAME" value="ElsoProject" />
+      <module name="repetitio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FleetOfThings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="comparable.FleetOfThings" />
       <module name="repetitio" />
       <extension name="coverage">
         <pattern>
@@ -98,14 +106,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ElsoProject" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-18" />
-      <option name="MAIN_CLASS_NAME" value="ElsoProject" />
-      <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,15 +123,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Zoo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Zoo" />
+    <configuration default="true" type="Application" factoryName="Application">
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
+    <configuration name="comparable.DominoesComparable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="comparable.DominoesComparable" />
       <module name="repetitio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="comparable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,18 +145,18 @@
     <list>
       <item itemvalue="Application.ElsoProject" />
       <item itemvalue="Application.DoableHomework" />
-      <item itemvalue="Application.DominoesComparable" />
+      <item itemvalue="Application.FleetOfThings" />
+      <item itemvalue="Application.comparable.DominoesComparable" />
       <item itemvalue="Application.Domino" />
       <item itemvalue="Application.Todo" />
-      <item itemvalue="Application.Zoo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DominoesComparable" />
+        <item itemvalue="Application.FleetOfThings" />
+        <item itemvalue="Application.comparable.DominoesComparable" />
         <item itemvalue="Application.DoableHomework" />
         <item itemvalue="Application.Todo" />
         <item itemvalue="Application.Domino" />
-        <item itemvalue="Application.Zoo" />
       </list>
     </recent_temporary>
   </component>
@@ -162,13 +168,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00063" summary="Drawing Project">
-      <created>1679475802483</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1679475802484</updated>
     </task>
     <task id="LOCAL-00064" summary="Drawing Project">
       <created>1679491168615</created>
@@ -506,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680276473858</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="Interface exercise">
+      <created>1680355933085</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1680355933085</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
