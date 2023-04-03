@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Interface exercise">
-      <change afterPath="$PROJECT_DIR$/src/reservations/Reservable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reservations/Reservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/Apples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/ApplesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,9 +14,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -61,13 +61,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="tests" />
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="comparable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Reservation">
+  <component name="RunManager" selected="JUnit.ApplesTest">
     <configuration name="DoableHomework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DoableHomework" />
       <module name="repetitio" />
@@ -109,19 +110,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Todo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="printable.Todo" />
-      <module name="repetitio" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="printable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <module name="repetitio" />
       <method v="2">
@@ -141,21 +129,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ApplesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="repetitio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ApplesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
       <item itemvalue="Application.Reservation" />
       <item itemvalue="Application.DoableHomework" />
       <item itemvalue="Application.FleetOfThings" />
       <item itemvalue="Application.comparable.DominoesComparable" />
-      <item itemvalue="Application.Todo" />
+      <item itemvalue="JUnit.ApplesTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApplesTest" />
         <item itemvalue="Application.Reservation" />
         <item itemvalue="Application.FleetOfThings" />
         <item itemvalue="Application.comparable.DominoesComparable" />
         <item itemvalue="Application.DoableHomework" />
-        <item itemvalue="Application.Todo" />
       </list>
     </recent_temporary>
   </component>
@@ -167,13 +170,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00065" summary="Drawing Project">
-      <created>1679495019057</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1679495019057</updated>
     </task>
     <task id="LOCAL-00066" summary="Drawing Project">
       <created>1679496932624</created>
@@ -511,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680358339914</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="Interface exercise">
+      <created>1680430635890</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1680430635891</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
