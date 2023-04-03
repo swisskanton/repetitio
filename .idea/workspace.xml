@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Test exercise">
-      <change afterPath="$PROJECT_DIR$/src/tests/Anagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/AnagramTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/CountLetters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/CountLettersTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +68,7 @@
       <recent name="comparable" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AnagramTest">
+  <component name="RunManager" selected="JUnit.CountLettersTest.countLettersFail">
     <configuration name="Anagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tests.Anagram" />
       <module name="repetitio" />
@@ -111,7 +111,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CountLettersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="repetitio" />
       <extension name="coverage">
         <pattern>
@@ -120,13 +120,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SumTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.CountLettersTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumTest.sum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CountLettersTest.countLettersFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="repetitio" />
       <extension name="coverage">
         <pattern>
@@ -135,8 +135,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SumTest" />
-      <option name="METHOD_NAME" value="sum" />
+      <option name="MAIN_CLASS_NAME" value="tests.CountLettersTest" />
+      <option name="METHOD_NAME" value="countLettersFail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -162,17 +162,17 @@
       <item itemvalue="Application.ElsoProject" />
       <item itemvalue="Application.Anagram" />
       <item itemvalue="JUnit.AnagramTest" />
-      <item itemvalue="JUnit.SumTest" />
-      <item itemvalue="JUnit.SumTest.sum" />
+      <item itemvalue="JUnit.CountLettersTest" />
+      <item itemvalue="JUnit.CountLettersTest.countLettersFail" />
       <item itemvalue="JUnit.SumTest.sumMultipleElements" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CountLettersTest.countLettersFail" />
+        <item itemvalue="JUnit.CountLettersTest" />
         <item itemvalue="JUnit.AnagramTest" />
         <item itemvalue="Application.Anagram" />
         <item itemvalue="JUnit.SumTest.sumMultipleElements" />
-        <item itemvalue="JUnit.SumTest" />
-        <item itemvalue="JUnit.SumTest.sum" />
       </list>
     </recent_temporary>
   </component>
@@ -184,13 +184,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00068" summary="Recursion">
-      <created>1679500569464</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1679500569465</updated>
     </task>
     <task id="LOCAL-00069" summary="Recursion">
       <created>1679501108310</created>
@@ -528,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680515607041</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="Test exercise">
+      <created>1680518852170</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1680518852170</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
