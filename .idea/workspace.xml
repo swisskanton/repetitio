@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Test exercise">
-      <change afterPath="$PROJECT_DIR$/src/tests/CountLetters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/CountLettersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/FibonacciTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,9 +68,17 @@
       <recent name="comparable" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CountLettersTest.countLettersFail">
-    <configuration name="Anagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tests.Anagram" />
+  <component name="RunManager" selected="JUnit.CountLettersTest.countLettersFails">
+    <configuration name="ElsoProject" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-18" />
+      <option name="MAIN_CLASS_NAME" value="ElsoProject" />
+      <module name="repetitio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tests.Fibonacci" />
       <module name="repetitio" />
       <extension name="coverage">
         <pattern>
@@ -78,14 +86,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ElsoProject" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-18" />
-      <option name="MAIN_CLASS_NAME" value="ElsoProject" />
-      <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -96,7 +96,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnagramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnagramTest.isAnagramIsTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="repetitio" />
       <extension name="coverage">
         <pattern>
@@ -106,22 +106,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.AnagramTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountLettersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="repetitio" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.CountLettersTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="isAnagramIsTrue" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,7 +128,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumTest.sumMultipleElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CountLettersTest.countLettersFails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="repetitio" />
       <extension name="coverage">
         <pattern>
@@ -151,28 +137,43 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SumTest" />
-      <option name="METHOD_NAME" value="sumMultipleElements" />
+      <option name="MAIN_CLASS_NAME" value="tests.CountLettersTest" />
+      <option name="METHOD_NAME" value="countLettersFails" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FibonacciTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="repetitio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.FibonacciTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
-      <item itemvalue="Application.Anagram" />
-      <item itemvalue="JUnit.AnagramTest" />
-      <item itemvalue="JUnit.CountLettersTest" />
+      <item itemvalue="Application.Fibonacci" />
+      <item itemvalue="JUnit.AnagramTest.isAnagramIsTrue" />
       <item itemvalue="JUnit.CountLettersTest.countLettersFail" />
-      <item itemvalue="JUnit.SumTest.sumMultipleElements" />
+      <item itemvalue="JUnit.CountLettersTest.countLettersFails" />
+      <item itemvalue="JUnit.FibonacciTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CountLettersTest.countLettersFails" />
+        <item itemvalue="JUnit.AnagramTest.isAnagramIsTrue" />
+        <item itemvalue="JUnit.FibonacciTest" />
+        <item itemvalue="Application.Fibonacci" />
         <item itemvalue="JUnit.CountLettersTest.countLettersFail" />
-        <item itemvalue="JUnit.CountLettersTest" />
-        <item itemvalue="JUnit.AnagramTest" />
-        <item itemvalue="Application.Anagram" />
-        <item itemvalue="JUnit.SumTest.sumMultipleElements" />
       </list>
     </recent_temporary>
   </component>
@@ -184,13 +185,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00069" summary="Recursion">
-      <created>1679501108310</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1679501108310</updated>
     </task>
     <task id="LOCAL-00070" summary="Recursion">
       <created>1679501955997</created>
@@ -528,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680518852170</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="Test exercise">
+      <created>1680521308393</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1680521308393</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -591,6 +592,15 @@
       <FILTER>tests.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/repetitio$SumTest_sum.ic" NAME="SumTest.sum Coverage Results" MODIFIED="1680514470199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tests.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/repetitio$FibonacciTest.ic" NAME="FibonacciTest Coverage Results" MODIFIED="1680524032363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tests.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/repetitio$AnagramTest_isAnagramIsTrue.ic" NAME="AnagramTest.isAnagramIsTrue Coverage Results" MODIFIED="1680524152225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tests.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/repetitio$CountLettersTest_countLettersFails.ic" NAME="CountLettersTest.countLettersFails Coverage Results" MODIFIED="1680524309905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>tests.*</FILTER>
     </SUITE>
   </component>
