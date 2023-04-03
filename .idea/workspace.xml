@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Test exercise">
-      <change afterPath="$PROJECT_DIR$/src/tests/Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/SumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/Anagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/AnagramTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,24 +68,24 @@
       <recent name="comparable" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SumTest.sumMultipleElements">
-    <configuration name="ElsoProject" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-18" />
-      <option name="MAIN_CLASS_NAME" value="ElsoProject" />
+  <component name="RunManager" selected="JUnit.AnagramTest">
+    <configuration name="Anagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tests.Anagram" />
       <module name="repetitio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reservation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reservations.Reservation" />
+    <configuration name="ElsoProject" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-18" />
+      <option name="MAIN_CLASS_NAME" value="ElsoProject" />
       <module name="repetitio" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="reservations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -96,7 +96,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApplesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnagramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="repetitio" />
       <extension name="coverage">
         <pattern>
@@ -105,7 +105,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ApplesTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.AnagramTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,19 +160,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
-      <item itemvalue="Application.Reservation" />
-      <item itemvalue="JUnit.ApplesTest" />
+      <item itemvalue="Application.Anagram" />
+      <item itemvalue="JUnit.AnagramTest" />
       <item itemvalue="JUnit.SumTest" />
       <item itemvalue="JUnit.SumTest.sum" />
       <item itemvalue="JUnit.SumTest.sumMultipleElements" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AnagramTest" />
+        <item itemvalue="Application.Anagram" />
         <item itemvalue="JUnit.SumTest.sumMultipleElements" />
         <item itemvalue="JUnit.SumTest" />
         <item itemvalue="JUnit.SumTest.sum" />
-        <item itemvalue="JUnit.ApplesTest" />
-        <item itemvalue="Application.Reservation" />
       </list>
     </recent_temporary>
   </component>
@@ -184,13 +184,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00067" summary="Drawing Project">
-      <created>1679496946711</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1679496946711</updated>
     </task>
     <task id="LOCAL-00068" summary="Recursion">
       <created>1679500569464</created>
@@ -528,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680511829193</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="Test exercise">
+      <created>1680515607041</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1680515607041</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
