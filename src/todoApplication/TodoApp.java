@@ -6,16 +6,13 @@ public class TodoApp extends TodoHandler {
 
         TodoApp app = new TodoApp();
 
-        if (args.length > 0)
+        if (app.IsCommandCorrect(args))
                 switch (args[0]) {
                     case "-l" -> app.listTasks();
                     case "-a" -> app.addNewTask(args);
                     case "-r" -> app.removeTask(args);
-                    case "-c" -> System.out.println(app.commands.get("-c"));
-                    default -> {
-                        System.err.println("Unsupported argument");
-                        app.printUsage();
-                    }
+                    case "-c" -> app.completedTask(args);
+                    default -> app.printUsage();
                 }
         else
             app.printUsage();

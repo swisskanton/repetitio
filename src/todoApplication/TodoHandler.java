@@ -30,26 +30,21 @@ public class TodoHandler {
     }
 
     public void addNewTask(String[] args) {
-        if (args.length < 2) {
-            System.err.println("Unable to add: no task provided");
-        } else {
-            Path path = Paths.get(this.fileName);
-            List<String> content = new ArrayList<>();
-            content.add("- " + args[1]);
-            try {
-                Files.write(path, content, StandardOpenOption.APPEND);
-            } catch (IOException e) {
-                System.err.println(e);
-            }
+        Path path = Paths.get(this.fileName);
+        List<String> content = new ArrayList<>();
+        content.add("- " + args[1]);
+        try {
+            Files.write(path, content, StandardOpenOption.APPEND);
+        } catch (IOException e) {
+            System.err.println(e);
         }
     }
 
     public void listTasks() {
-        List<String> content = new ArrayList<>();
-        content = getContent();
-        if (content.size() > 0) {
-            for (int i = 0; i < content.size(); i++) {
-                System.out.printf(" %d %s\n", i + 1, content.get(i));
+        List<String> tasks = getTasks();
+        if (tasks.size() > 0) {
+            for (int i = 0; i < tasks.size(); i++) {
+                System.out.printf(" %d - %s %s\n", i + 1, (tasks.get(i).charAt(0) == '+') ? "[x]" : "[ ]", tasks.get(i).substring(1));
             }
         } else {
             System.out.println("No todos for today! :)");
@@ -57,31 +52,64 @@ public class TodoHandler {
     }
 
     public void removeTask(String[] args) {
-        Path path = Paths.get(this.fileName);
-        List<String> content = new ArrayList<>();
-        if (args.length < 2)
-            System.err.println("Unable to remove: no index provided");
-        else {
-            if (isInt(args[1])) {
-                content = getContent();
-                int index = Integer.parseInt(args[1]);
-                if (content.size() < index || index < 1) {
-                    System.err.println("Unable to remove: index is out of bound");
-                } else {
-                    content.remove(index - 1);
-                    try {
-                        Files.write(path, content);
-                    } catch (IOException e) {
-                        System.err.println(e);
-                    }
-                }
-            } else {
-                System.err.println("Unable to remove: index is not a whole number");
-            }
-        }
+        List<String> tasks = getTasks();
+        int index = Integer.parseInt(args[1]);
+        tasks.remove(index - 1);
+        saveTasks(tasks);
     }
 
-    public boolean isInt(String strNum) {
+    public void completedTask(String[] args) {
+        List<String> tasks = getTasks();
+        int index = Integer.parseInt(args[1]);
+        tasks.set(index - 1, "+" + tasks.get(index - 1).substring(1));
+        saveTasks(tasks);
+    }
+
+    public boolean IsCommandCorrect(String[] args) {
+        if (args.length > 0)
+            switch (args[0]) {
+                case "-l" -> {
+                    if (args.length > 1) {
+                        System.err.println("Unsupported argument");
+                        return false;
+                    }
+                }
+                case "-a" -> {
+                    if (args.length < 2) {
+                        System.err.println("Unable to remove: no index provided");
+                        return false;
+                    }
+                }
+                case "-r", "-c" -> { return checkNumberArgument(args); }
+                default -> {
+                    System.err.println("Unsupported argument");
+                    return false;
+                }
+            }
+        return true;
+    }
+
+    private boolean checkNumberArgument(String[] args) {
+        if (args.length < 2) {
+            System.err.println("Unable to remove: no index provided");
+            return false;
+        } else {
+            if (isInt(args[1])) {
+                List<String> tasks = getTasks();
+                int index = Integer.parseInt(args[1]);
+                if (index < 1 || tasks.size() < index) {
+                    System.err.println("Unable to remove: index is out of bound");
+                    return false;
+                }
+            } else {
+                System.err.println("Unable to remove: index is not a number or not a whole number");
+                return false;
+            }
+        }
+        return true;
+    }
+
+    private boolean isInt(String strNum) {
         try {
             int num = Integer.parseInt(strNum);
         } catch (NumberFormatException e) {
@@ -90,7 +118,7 @@ public class TodoHandler {
         return true;
     }
 
-    private List<String> getContent() {
+    private List<String> getTasks() {
         Path path = Paths.get(this.fileName);
         List<String> content = new ArrayList<>();
         try {
@@ -99,5 +127,14 @@ public class TodoHandler {
             System.err.println(e);
         }
         return content;
+    }
+
+    private void saveTasks(List<String> content) {
+        Path path = Paths.get(this.fileName);
+        try {
+            Files.write(path, content);
+        } catch (IOException e) {
+            System.err.println(e);
+        }
     }
 }

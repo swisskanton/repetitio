@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Test exercise">
-      <change afterPath="$PROJECT_DIR$/src/todoApplication/TodoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/todoApplication/TodoHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/todoApplication/myTasks.txt" afterDir="false" />
+    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Project: TODO Application">
+      <change afterPath="$PROJECT_DIR$/src/todoApplication/project.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/todoApplication/TodoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/todoApplication/TodoApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/todoApplication/TodoHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/todoApplication/TodoHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/todoApplication/myTasks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/todoApplication/myTasks.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,26 +34,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "last.edited.regexp": "Sample Text",
-    "last_opened_file_path": "C:/www/java/repetitio/src/clonasble",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "editor.preferences.completion"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;last.edited.regexp&quot;: &quot;Sample Text&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/www/java/repetitio/src/clonasble&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\www\java\repetitio\src\clonasble" />
@@ -97,7 +98,7 @@
     <configuration name="TodoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="todoApplication.TodoApp" />
       <module name="repetitio" />
-      <option name="PROGRAM_PARAMETERS" value="get" />
+      <option name="PROGRAM_PARAMETERS" value="-l" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="todoApplication.*" />
@@ -187,13 +188,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00071" summary="Recursion">
-      <created>1679518425639</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1679518425639</updated>
     </task>
     <task id="LOCAL-00072" summary="Recursion">
       <created>1679518914944</created>
@@ -531,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680524422782</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="Project: TODO Application">
+      <created>1680641989347</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1680641989347</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -570,7 +571,8 @@
     <MESSAGE value="Abstract classes and interfaces exercise" />
     <MESSAGE value="Interface exercise" />
     <MESSAGE value="Test exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test exercise" />
+    <MESSAGE value="Project: TODO Application" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project: TODO Application" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
