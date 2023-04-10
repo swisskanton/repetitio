@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Garden Application">
-      <change afterPath="$PROJECT_DIR$/src/aircraftCarrier/Aircrafts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aircraftCarrier/Carrier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aircraftCarrier/F16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aircraftCarrier/F35.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aircraftCarrier/Main.java" afterDir="false" />
+    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Aircraft carrier exercise">
+      <change afterPath="$PROJECT_DIR$/src/wardrobe/Cloth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wardrobe/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wardrobe/Overwear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wardrobe/Underwear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wardrobe/Wardrobe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -74,7 +74,7 @@
       <recent name="comparable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.wardrobe.Main">
     <configuration name="ElsoProject" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-18" />
       <option name="MAIN_CLASS_NAME" value="ElsoProject" />
@@ -129,18 +129,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnagramTest.isAnagramIsTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="wardrobe.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wardrobe.Main" />
       <module name="repetitio" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="wardrobe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.AnagramTest" />
-      <option name="METHOD_NAME" value="isAnagramIsTrue" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -163,19 +160,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
+      <item itemvalue="Application.wardrobe.Main" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Garden" />
       <item itemvalue="Application.TodoApp" />
-      <item itemvalue="JUnit.AnagramTest.isAnagramIsTrue" />
       <item itemvalue="JUnit.CountLettersTest.countLettersFails" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.wardrobe.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Garden" />
         <item itemvalue="Application.TodoApp" />
         <item itemvalue="JUnit.CountLettersTest.countLettersFails" />
-        <item itemvalue="JUnit.AnagramTest.isAnagramIsTrue" />
       </list>
     </recent_temporary>
   </component>
@@ -187,13 +184,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00074" summary="Recursion">
-      <created>1679577629569</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1679577629571</updated>
     </task>
     <task id="LOCAL-00075" summary="Recursion">
       <created>1679579428147</created>
@@ -531,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680942907887</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="Aircraft carrier exercise">
+      <created>1681025435209</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1681025435210</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -546,7 +543,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Array exercises" />
     <MESSAGE value="Function exercise" />
     <MESSAGE value="String exercise" />
     <MESSAGE value="Data structures" />
@@ -571,7 +567,8 @@
     <MESSAGE value="Test exercise" />
     <MESSAGE value="Project: TODO Application" />
     <MESSAGE value="Garden Application" />
-    <option name="LAST_COMMIT_MESSAGE" value="Garden Application" />
+    <MESSAGE value="Aircraft carrier exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aircraft carrier exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
