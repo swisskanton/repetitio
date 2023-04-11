@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Aircraft carrier exercise">
-      <change afterPath="$PROJECT_DIR$/src/wardrobe/Cloth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/wardrobe/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/wardrobe/Overwear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/wardrobe/Underwear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/wardrobe/Wardrobe.java" afterDir="false" />
+    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Wardrobe exercise">
+      <change afterPath="$PROJECT_DIR$/src/foodShop/Dairy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/foodShop/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/foodShop/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/foodShop/ShopItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/foodShop/Vegetable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/foodShop/foodShop.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +75,7 @@
       <recent name="comparable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.wardrobe.Main">
+  <component name="RunManager" selected="Application.foodShop.Main">
     <configuration name="ElsoProject" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-18" />
       <option name="MAIN_CLASS_NAME" value="ElsoProject" />
@@ -129,6 +130,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="foodShop.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="foodShop.Main" />
+      <module name="repetitio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="foodShop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="wardrobe.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="wardrobe.Main" />
       <module name="repetitio" />
@@ -142,37 +156,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountLettersTest.countLettersFails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="repetitio" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.CountLettersTest" />
-      <option name="METHOD_NAME" value="countLettersFails" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
+      <item itemvalue="Application.foodShop.Main" />
       <item itemvalue="Application.wardrobe.Main" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Garden" />
       <item itemvalue="Application.TodoApp" />
-      <item itemvalue="JUnit.CountLettersTest.countLettersFails" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.foodShop.Main" />
         <item itemvalue="Application.wardrobe.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Garden" />
         <item itemvalue="Application.TodoApp" />
-        <item itemvalue="JUnit.CountLettersTest.countLettersFails" />
       </list>
     </recent_temporary>
   </component>
@@ -184,13 +182,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00075" summary="Recursion">
-      <created>1679579428147</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1679579428147</updated>
     </task>
     <task id="LOCAL-00076" summary="Recursion">
       <created>1679580949207</created>
@@ -528,7 +519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681025435210</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="Wardrobe exercise">
+      <created>1681151748559</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1681151748560</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -543,7 +541,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Function exercise" />
     <MESSAGE value="String exercise" />
     <MESSAGE value="Data structures" />
     <MESSAGE value="Exception example" />
@@ -568,7 +565,8 @@
     <MESSAGE value="Project: TODO Application" />
     <MESSAGE value="Garden Application" />
     <MESSAGE value="Aircraft carrier exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aircraft carrier exercise" />
+    <MESSAGE value="Wardrobe exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wardrobe exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
