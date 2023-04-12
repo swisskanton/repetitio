@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Wardrobe exercise">
-      <change afterPath="$PROJECT_DIR$/src/foodShop/Dairy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/foodShop/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/foodShop/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/foodShop/ShopItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/foodShop/Vegetable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/foodShop/foodShop.txt" afterDir="false" />
+    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Food Shop exercise">
+      <change afterPath="$PROJECT_DIR$/src/banking/Balance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/banking/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/banking/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/banking/Savings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/banking/SpeedUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/banking/banking.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -182,13 +182,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00076" summary="Recursion">
-      <created>1679580949207</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1679580949207</updated>
     </task>
     <task id="LOCAL-00077" summary="Recursion">
       <created>1679583383327</created>
@@ -526,7 +519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681151748560</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="Food Shop exercise">
+      <created>1681245422857</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1681245422857</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -541,7 +541,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="String exercise" />
     <MESSAGE value="Data structures" />
     <MESSAGE value="Exception example" />
     <MESSAGE value="File IO - reading file" />
@@ -566,7 +565,8 @@
     <MESSAGE value="Garden Application" />
     <MESSAGE value="Aircraft carrier exercise" />
     <MESSAGE value="Wardrobe exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wardrobe exercise" />
+    <MESSAGE value="Food Shop exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Food Shop exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
