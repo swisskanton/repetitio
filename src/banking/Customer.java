@@ -10,7 +10,7 @@ public class Customer {
     String name;
     int age;
     String gender;
-    List<BankAccount> bankAccount;
+    List<BankAccount> bankAccount = new ArrayList<>();
 
     public Customer(String name, int age, String gender) {
         this.name = name;
@@ -39,8 +39,7 @@ public class Customer {
             BankAccount account = getAccount(senderAccountName);
             account.balance -= amount;
             account.lastUsageDate = LocalDate.now();
-            account.history.add(String.format("%d Ft sent to %s from the account %s at %s", amount, partner, senderAccountName, account.lastUsageDate));
-            addPartner(account, partner);
+            account.history.add(String.format("%d Ft sent to %s from the account %s at %s", amount, partner.name, senderAccountName, account.lastUsageDate));
             partner.receiveMoney(partnerAccountName, this, amount);
             double costs = account.sendingCosts(amount);
             account.balance -= costs;
@@ -49,6 +48,7 @@ public class Customer {
                 account.balance += account.bonus(partner);
                 account.history.add(String.format("%.2f Ft bonus for sending money to a new partner", account.bonus(partner)));
             }
+            addPartner(account, partner);
         } else {
             throw new InvalidParameterException(String.format("There is no sender account under the name %s", senderAccountName));
         }
@@ -74,7 +74,7 @@ public class Customer {
             BankAccount account = getAccount(receiverAccountName);
             account.balance += amount;
             account.lastUsageDate = LocalDate.now();
-            account.history.add(String.format("%d Ft received from %s to the account %s at %s", amount, sender, receiverAccountName, account.lastUsageDate));
+            account.history.add(String.format("%d Ft received from %s to the account %s at %s", amount, sender.name, receiverAccountName, account.lastUsageDate));
             addPartner(account, sender);
             double costs = account.receivingCosts(amount);
             account.balance -= costs;
@@ -86,7 +86,7 @@ public class Customer {
 
     public void generateStatus() {
         for (BankAccount ba: this.bankAccount) {
-            System.out.println(ba);
+            System.out.println(ba.toString());
         }
     }
 }

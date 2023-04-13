@@ -2,24 +2,25 @@ package banking;
 
 import java.time.LocalDate;
 import java.time.Period;
+import java.util.ArrayList;
 import java.util.List;
 
 public abstract class BankAccount {
     String name;
     Customer owner;
     double balance;
-    List<String> history;
-    List<Customer> partners;
+    List<String> history = new ArrayList<>();
+    List<Customer> partners = new ArrayList<>();
     LocalDate lastUsageDate;
     String type;
 
-    public BankAccount(String name, Customer owner, double startingBalance) {
+    protected BankAccount(String name, Customer owner, double startingBalance) {
         this.name = name;
         this.owner = owner;
         this.balance = startingBalance;
         this.lastUsageDate = LocalDate.now();
         this.partners.add(owner);
-        this.history.add(String.format("%.2f Ft received from %s to the account %s at %s", startingBalance, owner, name, this.lastUsageDate));
+        this.history.add(String.format("%.2f Ft received from %s to the account %s at %s", startingBalance, owner.name, name, this.lastUsageDate));
     }
 
     @Override
@@ -32,6 +33,6 @@ public abstract class BankAccount {
     }
 
     public abstract double sendingCosts(double amount);
-    public abstract double receivingCosts(double amount);
-    public abstract double bonus(Customer partner);
+    protected abstract double receivingCosts(double amount);
+    protected abstract double bonus(Customer partner);
 }
