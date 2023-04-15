@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Banking exercise">
-      <change afterPath="$PROJECT_DIR$/src/AreaOfParallelogram.java" afterDir="false" />
+    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Area of a parallelogram">
+      <change afterPath="$PROJECT_DIR$/src/FindDay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +70,7 @@
       <recent name="comparable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AreaOfParallelogram">
+  <component name="RunManager" selected="Application.FindDay">
     <configuration name="AreaOfParallelogram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AreaOfParallelogram" />
       <module name="repetitio" />
@@ -81,6 +81,13 @@
     <configuration name="ElsoProject" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-18" />
       <option name="MAIN_CLASS_NAME" value="ElsoProject" />
+      <module name="repetitio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindDay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FindDay" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,34 +132,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="wardrobe.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="wardrobe.Main" />
-      <module name="repetitio" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="wardrobe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
+      <item itemvalue="Application.FindDay" />
       <item itemvalue="Application.AreaOfParallelogram" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.banking.Main" />
       <item itemvalue="Application.foodShop.Main" />
-      <item itemvalue="Application.wardrobe.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindDay" />
         <item itemvalue="Application.AreaOfParallelogram" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.banking.Main" />
         <item itemvalue="Application.foodShop.Main" />
-        <item itemvalue="Application.wardrobe.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -164,13 +158,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00079" summary="Recursion">
-      <created>1679586903462</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1679586903462</updated>
     </task>
     <task id="LOCAL-00080" summary="Recursion and drawing">
       <created>1679597062435</created>
@@ -508,7 +495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681378978464</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="Area of a parallelogram">
+      <created>1681502233824</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1681502233824</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -523,7 +517,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Exception example" />
     <MESSAGE value="File IO - reading file" />
     <MESSAGE value="File IO - writing files" />
     <MESSAGE value="File IO - copy files" />
@@ -548,7 +541,8 @@
     <MESSAGE value="Wardrobe exercise" />
     <MESSAGE value="Food Shop exercise" />
     <MESSAGE value="Banking exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Banking exercise" />
+    <MESSAGE value="Area of a parallelogram" />
+    <option name="LAST_COMMIT_MESSAGE" value="Area of a parallelogram" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
