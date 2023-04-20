@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Linked Lists">
-      <change afterPath="$PROJECT_DIR$/src/SortBigDecimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SortBigDecimalTest.java" afterDir="false" />
+    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="BigDecinals">
+      <change afterPath="$PROJECT_DIR$/src/ArrayGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +14,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -71,9 +70,9 @@
       <recent name="comparable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortBigDecimalTest">
-    <configuration name="AreaOfParallelogram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AreaOfParallelogram" />
+  <component name="RunManager" selected="Application.ArrayGame">
+    <configuration name="ArrayGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayGame" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,19 +128,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
+      <item itemvalue="Application.ArrayGame" />
       <item itemvalue="Application.SortBigDecimalTest" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.PalindromeQueueStack" />
       <item itemvalue="Application.FindDay" />
-      <item itemvalue="Application.AreaOfParallelogram" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayGame" />
         <item itemvalue="Application.SortBigDecimalTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.PalindromeQueueStack" />
         <item itemvalue="Application.FindDay" />
-        <item itemvalue="Application.AreaOfParallelogram" />
       </list>
     </recent_temporary>
   </component>
@@ -153,13 +152,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00083" summary="Fractal">
-      <created>1679600609869</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1679600609869</updated>
     </task>
     <task id="LOCAL-00084" summary="Fractal">
       <created>1679659893020</created>
@@ -497,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681749100938</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="BigDecinals">
+      <created>1681825159070</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1681825159071</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -512,7 +511,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="File IO" />
     <MESSAGE value="Drawing and Graphics" />
     <MESSAGE value="Drawing Project" />
     <MESSAGE value="Recursion" />
@@ -537,7 +535,8 @@
     <MESSAGE value="Data and Time" />
     <MESSAGE value="Queues and Stacks" />
     <MESSAGE value="Linked Lists" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linked Lists" />
+    <MESSAGE value="BigDecinals" />
+    <option name="LAST_COMMIT_MESSAGE" value="BigDecinals" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
