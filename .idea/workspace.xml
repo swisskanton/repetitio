@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="BigDecinals">
-      <change afterPath="$PROJECT_DIR$/src/ArrayGame.java" afterDir="false" />
+    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Data Structures">
+      <change afterPath="$PROJECT_DIR$/src/BalancedStrings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,9 +70,16 @@
       <recent name="comparable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayGame">
+  <component name="RunManager" selected="Application.BalancedStrings">
     <configuration name="ArrayGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayGame" />
+      <module name="repetitio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BalancedStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BalancedStrings" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,13 +88,6 @@
     <configuration name="ElsoProject" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-18" />
       <option name="MAIN_CLASS_NAME" value="ElsoProject" />
-      <module name="repetitio" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindDay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FindDay" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,19 +128,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
+      <item itemvalue="Application.BalancedStrings" />
       <item itemvalue="Application.ArrayGame" />
       <item itemvalue="Application.SortBigDecimalTest" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.PalindromeQueueStack" />
-      <item itemvalue="Application.FindDay" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BalancedStrings" />
         <item itemvalue="Application.ArrayGame" />
         <item itemvalue="Application.SortBigDecimalTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.PalindromeQueueStack" />
-        <item itemvalue="Application.FindDay" />
       </list>
     </recent_temporary>
   </component>
@@ -152,13 +152,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00084" summary="Fractal">
-      <created>1679659893020</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1679659893020</updated>
     </task>
     <task id="LOCAL-00085" summary="Fractal">
       <created>1679664298712</created>
@@ -496,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681825159071</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="Data Structures">
+      <created>1682022181368</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1682022181369</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -511,7 +511,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Drawing and Graphics" />
     <MESSAGE value="Drawing Project" />
     <MESSAGE value="Recursion" />
     <MESSAGE value="Recursion and drawing" />
@@ -536,7 +535,8 @@
     <MESSAGE value="Queues and Stacks" />
     <MESSAGE value="Linked Lists" />
     <MESSAGE value="BigDecinals" />
-    <option name="LAST_COMMIT_MESSAGE" value="BigDecinals" />
+    <MESSAGE value="Data Structures" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data Structures" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
