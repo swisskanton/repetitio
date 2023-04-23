@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Data Structures">
-      <change afterPath="$PROJECT_DIR$/src/DequeUniques.java" afterDir="false" />
+    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Data Structures: Deque">
+      <change afterPath="$PROJECT_DIR$/src/TagContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/tagContent.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +71,7 @@
       <recent name="comparable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BalancedStrings">
+  <component name="RunManager" selected="Application.TagContent">
     <configuration name="ArrayGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayGame" />
       <module name="repetitio" />
@@ -106,15 +107,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromeQueueStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PalindromeQueueStack" />
+    <configuration name="SortBigDecimalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortBigDecimalTest" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortBigDecimalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortBigDecimalTest" />
+    <configuration name="TagContent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TagContent" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,19 +129,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
+      <item itemvalue="Application.TagContent" />
       <item itemvalue="Application.BalancedStrings" />
       <item itemvalue="Application.ArrayGame" />
       <item itemvalue="Application.SortBigDecimalTest" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.PalindromeQueueStack" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TagContent" />
         <item itemvalue="Application.BalancedStrings" />
         <item itemvalue="Application.ArrayGame" />
         <item itemvalue="Application.SortBigDecimalTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.PalindromeQueueStack" />
       </list>
     </recent_temporary>
   </component>
@@ -152,13 +153,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00086" summary="Fractal">
-      <created>1679665005898</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1679665005898</updated>
     </task>
     <task id="LOCAL-00087" summary="Fractal">
       <created>1679667030951</created>
@@ -496,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682065790563</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="Data Structures: Deque">
+      <created>1682160940152</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1682160940152</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -511,7 +512,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Drawing Project" />
     <MESSAGE value="Recursion" />
     <MESSAGE value="Recursion and drawing" />
     <MESSAGE value="Fractal pictures" />
@@ -536,7 +536,8 @@
     <MESSAGE value="Linked Lists" />
     <MESSAGE value="BigDecinals" />
     <MESSAGE value="Data Structures" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data Structures" />
+    <MESSAGE value="Data Structures: Deque" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data Structures: Deque" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

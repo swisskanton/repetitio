@@ -1,0 +1,7 @@
+<h1>Nayeem loves counseling</h1>
+<h1><h1>Sanjay has no watch</h1></h1><par>So wait for a while</par>
+<Amee>safat codes like a ninja</amee>
+<SA premium>Imtiaz has a secret crush</SA premium>
+<h1><a>contents</a>invalid</h1>
+<h1><a>this content <Amee>invalid tags</amee> is valid</a>invalid part</h1>
+<h1><a>contents <Amee>safat <br>valid codes</br> like a ninja</amee></a>invalid</h1>
