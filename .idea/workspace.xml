@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Data Structures: Deque">
-      <change afterPath="$PROJECT_DIR$/src/TagContent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/tagContent.txt" afterDir="false" />
+    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Hackerrank Tag Content Extractor exercise">
+      <change afterPath="$PROJECT_DIR$/src/CheckPrime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +70,7 @@
       <recent name="comparable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TagContent">
+  <component name="RunManager" selected="Application.CheckPrime">
     <configuration name="ArrayGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayGame" />
       <module name="repetitio" />
@@ -86,23 +85,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ElsoProject" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-18" />
-      <option name="MAIN_CLASS_NAME" value="ElsoProject" />
+    <configuration name="CheckPrime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CheckPrime" />
       <module name="repetitio" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="removeDuplicates.Main" />
+    <configuration name="ElsoProject" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-18" />
+      <option name="MAIN_CLASS_NAME" value="ElsoProject" />
       <module name="repetitio" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="removeDuplicates.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,19 +122,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
+      <item itemvalue="Application.CheckPrime" />
       <item itemvalue="Application.TagContent" />
       <item itemvalue="Application.BalancedStrings" />
       <item itemvalue="Application.ArrayGame" />
       <item itemvalue="Application.SortBigDecimalTest" />
-      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckPrime" />
         <item itemvalue="Application.TagContent" />
         <item itemvalue="Application.BalancedStrings" />
         <item itemvalue="Application.ArrayGame" />
         <item itemvalue="Application.SortBigDecimalTest" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -153,13 +146,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00087" summary="Fractal">
-      <created>1679667030951</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1679667030951</updated>
     </task>
     <task id="LOCAL-00088" summary="Fractal">
       <created>1679678626166</created>
@@ -497,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682160940152</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="Hackerrank Tag Content Extractor exercise">
+      <created>1682249885876</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1682249885878</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -512,7 +505,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Recursion" />
     <MESSAGE value="Recursion and drawing" />
     <MESSAGE value="Fractal pictures" />
     <MESSAGE value="Fractal" />
@@ -537,7 +529,8 @@
     <MESSAGE value="BigDecinals" />
     <MESSAGE value="Data Structures" />
     <MESSAGE value="Data Structures: Deque" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data Structures: Deque" />
+    <MESSAGE value="Hackerrank Tag Content Extractor exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hackerrank Tag Content Extractor exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
