@@ -24,24 +24,21 @@ class Prime {
     void checkPrime(int... values) {
         String[] primes = new String[4];
         int index = 0;
-        for (int i = 0; i < values.length; i++) {
-            boolean isPrime = true;
-            if (values[i] == 1)
-                isPrime = false;
-            for (int j = 2; j < (int)(values[i] / 2) + 1; j++) {
-                if (values[i] % j == 0) {
+        for (int value : values) {
+            boolean isPrime = value != 1;
+            for (int j = 2; j < (value / 2) + 1; j++) {
+                if (value % j == 0) {
                     isPrime = false;
                     break;
                 }
             }
             if (isPrime)
                 if (index < 4)
-                    primes[index] = (index == 0 ? "" : primes[index - 1] + (primes[index - 1].equals("") ? "" : " ")) + values[i];
+                    primes[index] = (index == 0 ? "" : primes[index - 1] + (primes[index - 1].equals("") ? "" : " ")) + value;
                 else
-                    primes[3] += primes[3].equals("") ? "" : " " + values[i];
-            else
-                if (index < 4)
-                    primes[index] = index == 0 ? "" : primes[index - 1];
+                    primes[3] += primes[3].equals("") ? "" : " " + value;
+            else if (index < 4)
+                primes[index] = index == 0 ? "" : primes[index - 1];
             index++;
         }
 
