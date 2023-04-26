@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Hackerrank Tag Content Extractor exercise">
-      <change afterPath="$PROJECT_DIR$/src/CheckPrime.java" afterDir="false" />
+    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Hackerrank Prime Checker">
+      <change afterPath="$PROJECT_DIR$/src/priorityQueue/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/priorityQueue/Priorities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/priorityQueue/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/priorityQueue/events.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/priorityQueue/readMe.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +74,7 @@
       <recent name="comparable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CheckPrime">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ArrayGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayGame" />
       <module name="repetitio" />
@@ -100,9 +104,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortBigDecimalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortBigDecimalTest" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="priorityQueue.Main" />
       <module name="repetitio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="priorityQueue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,19 +132,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="Application.CheckPrime" />
       <item itemvalue="Application.TagContent" />
       <item itemvalue="Application.BalancedStrings" />
       <item itemvalue="Application.ArrayGame" />
-      <item itemvalue="Application.SortBigDecimalTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.CheckPrime" />
         <item itemvalue="Application.TagContent" />
         <item itemvalue="Application.BalancedStrings" />
         <item itemvalue="Application.ArrayGame" />
-        <item itemvalue="Application.SortBigDecimalTest" />
       </list>
     </recent_temporary>
   </component>
@@ -146,20 +156,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00088" summary="Fractal">
-      <created>1679678626166</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1679678626167</updated>
-    </task>
-    <task id="LOCAL-00089" summary="Fractal pictures">
-      <created>1679679370220</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1679679370220</updated>
     </task>
     <task id="LOCAL-00090" summary="Fractal">
       <created>1679733008275</created>
@@ -490,7 +486,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682249885878</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="Hackerrank Prime Checker">
+      <created>1682411155352</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1682411155353</updated>
+    </task>
+    <task id="LOCAL-00138" summary="Hackerrank Prime Checker">
+      <created>1682411369328</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1682411369328</updated>
+    </task>
+    <option name="localTasksCounter" value="139" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -505,7 +515,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Recursion and drawing" />
     <MESSAGE value="Fractal pictures" />
     <MESSAGE value="Fractal" />
     <MESSAGE value="Classes, objects and tests" />
@@ -530,7 +539,8 @@
     <MESSAGE value="Data Structures" />
     <MESSAGE value="Data Structures: Deque" />
     <MESSAGE value="Hackerrank Tag Content Extractor exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hackerrank Tag Content Extractor exercise" />
+    <MESSAGE value="Hackerrank Prime Checker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hackerrank Prime Checker" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
