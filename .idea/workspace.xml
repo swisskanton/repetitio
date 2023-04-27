@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Hackerrank Prime Checker">
-      <change afterPath="$PROJECT_DIR$/src/priorityQueue/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/priorityQueue/Priorities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/priorityQueue/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/priorityQueue/events.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/priorityQueue/readMe.txt" afterDir="false" />
+    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Data Structures - PriorityQueue">
+      <change afterPath="$PROJECT_DIR$/src/SingletonEarly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SingletonLazy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,13 +153,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00090" summary="Fractal">
-      <created>1679733008275</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1679733008276</updated>
     </task>
     <task id="LOCAL-00091" summary="Classes and objects">
       <created>1679911475330</created>
@@ -500,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682411369328</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="Data Structures - PriorityQueue">
+      <created>1682492817362</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1682492817363</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -515,7 +512,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fractal pictures" />
     <MESSAGE value="Fractal" />
     <MESSAGE value="Classes, objects and tests" />
     <MESSAGE value="Classes and objects" />
@@ -540,7 +536,8 @@
     <MESSAGE value="Data Structures: Deque" />
     <MESSAGE value="Hackerrank Tag Content Extractor exercise" />
     <MESSAGE value="Hackerrank Prime Checker" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hackerrank Prime Checker" />
+    <MESSAGE value="Data Structures - PriorityQueue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data Structures - PriorityQueue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
