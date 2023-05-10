@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Data Structures - PriorityQueue">
-      <change afterPath="$PROJECT_DIR$/src/SingletonEarly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SingletonLazy.java" afterDir="false" />
+    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Singleton pattern">
+      <change afterPath="$PROJECT_DIR$/src/Spiral.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,26 +31,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;last.edited.regexp&quot;: &quot;Sample Text&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/www/java/repetitio/src/clonasble&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "last.edited.regexp": "Sample Text",
+    "last_opened_file_path": "C:/www/java/repetitio",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "editor.preferences.completion"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\www\java\repetitio\src\clonasble" />
@@ -71,14 +70,7 @@
       <recent name="comparable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="ArrayGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayGame" />
-      <module name="repetitio" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Spiral">
     <configuration name="BalancedStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BalancedStrings" />
       <module name="repetitio" />
@@ -114,6 +106,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spiral" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Spiral" />
+      <module name="repetitio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TagContent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TagContent" />
       <module name="repetitio" />
@@ -129,19 +128,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
+      <item itemvalue="Application.Spiral" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.CheckPrime" />
       <item itemvalue="Application.TagContent" />
       <item itemvalue="Application.BalancedStrings" />
-      <item itemvalue="Application.ArrayGame" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Spiral" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.CheckPrime" />
         <item itemvalue="Application.TagContent" />
         <item itemvalue="Application.BalancedStrings" />
-        <item itemvalue="Application.ArrayGame" />
       </list>
     </recent_temporary>
   </component>
@@ -153,13 +152,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00091" summary="Classes and objects">
-      <created>1679911475330</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1679911475331</updated>
     </task>
     <task id="LOCAL-00092" summary="Classes and objects">
       <created>1679912750486</created>
@@ -497,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682492817363</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="Singleton pattern">
+      <created>1682582425590</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1682582425591</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -512,7 +511,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fractal" />
     <MESSAGE value="Classes, objects and tests" />
     <MESSAGE value="Classes and objects" />
     <MESSAGE value="Inheritance exercise" />
@@ -537,7 +535,8 @@
     <MESSAGE value="Hackerrank Tag Content Extractor exercise" />
     <MESSAGE value="Hackerrank Prime Checker" />
     <MESSAGE value="Data Structures - PriorityQueue" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data Structures - PriorityQueue" />
+    <MESSAGE value="Singleton pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Singleton pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
