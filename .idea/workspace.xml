@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Singleton pattern">
-      <change afterPath="$PROJECT_DIR$/src/Spiral.java" afterDir="false" />
+    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Numbers fill the table/array clockwise from the top-level corner in a spiral manner.">
+      <change afterPath="$PROJECT_DIR$/src/MatrixTransposition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,14 +70,7 @@
       <recent name="comparable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Spiral">
-    <configuration name="BalancedStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BalancedStrings" />
-      <module name="repetitio" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MatrixTransposition">
     <configuration name="CheckPrime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CheckPrime" />
       <module name="repetitio" />
@@ -106,6 +99,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MatrixTransposition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MatrixTransposition" />
+      <module name="repetitio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Spiral" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Spiral" />
       <module name="repetitio" />
@@ -128,19 +128,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
+      <item itemvalue="Application.MatrixTransposition" />
       <item itemvalue="Application.Spiral" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.CheckPrime" />
       <item itemvalue="Application.TagContent" />
-      <item itemvalue="Application.BalancedStrings" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MatrixTransposition" />
         <item itemvalue="Application.Spiral" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.CheckPrime" />
         <item itemvalue="Application.TagContent" />
-        <item itemvalue="Application.BalancedStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -152,13 +152,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00092" summary="Classes and objects">
-      <created>1679912750486</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1679912750486</updated>
     </task>
     <task id="LOCAL-00093" summary="Classes and objects">
       <created>1679930314040</created>
@@ -496,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682582425591</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="Numbers fill the table/array clockwise from the top-level corner in a spiral manner.">
+      <created>1683735400967</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1683735400968</updated>
+    </task>
+    <option name="localTasksCounter" value="142" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -511,7 +511,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Classes, objects and tests" />
     <MESSAGE value="Classes and objects" />
     <MESSAGE value="Inheritance exercise" />
     <MESSAGE value="gitignore setting" />
@@ -536,7 +535,8 @@
     <MESSAGE value="Hackerrank Prime Checker" />
     <MESSAGE value="Data Structures - PriorityQueue" />
     <MESSAGE value="Singleton pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Singleton pattern" />
+    <MESSAGE value="Numbers fill the table/array clockwise from the top-level corner in a spiral manner." />
+    <option name="LAST_COMMIT_MESSAGE" value="Numbers fill the table/array clockwise from the top-level corner in a spiral manner." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
