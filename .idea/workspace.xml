@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Carousel exercise">
-      <change afterPath="$PROJECT_DIR$/src/Hash256Code.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="SHA-256 code exercise" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +46,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -154,13 +150,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00095" summary="Classes, objects and tests">
-      <created>1679944504909</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1679944504909</updated>
     </task>
     <task id="LOCAL-00096" summary="Classes and objects">
       <created>1679992116014</created>
@@ -498,7 +487,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684089218556</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <task id="LOCAL-00144" summary="SHA-256 code exercise">
+      <created>1684140833579</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1684140833579</updated>
+    </task>
+    <option name="localTasksCounter" value="145" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -516,7 +512,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/src/decrementing-carousel" />
     </ignored-roots>
-    <MESSAGE value="Inheritance exercise" />
     <MESSAGE value="gitignore setting" />
     <MESSAGE value="Abstract classes exercise" />
     <MESSAGE value="Abstract classes and interfaces exercise" />
@@ -541,7 +536,8 @@
     <MESSAGE value="Singleton pattern" />
     <MESSAGE value="Numbers fill the table/array clockwise from the top-level corner in a spiral manner." />
     <MESSAGE value="Carousel exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Carousel exercise" />
+    <MESSAGE value="SHA-256 code exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="SHA-256 code exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
