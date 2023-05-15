@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Numbers fill the table/array clockwise from the top-level corner in a spiral manner.">
-      <change afterPath="$PROJECT_DIR$/src/decreasingCarousel/CarouselRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decreasingCarousel/DecrementingCarousel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decreasingCarousel/Main.java" afterDir="false" />
+    <list default="true" id="a4300853-8fe0-4bda-b495-18d4bef3d822" name="Changes" comment="Carousel exercise">
+      <change afterPath="$PROJECT_DIR$/src/Hash256Code.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -52,7 +50,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "editor.preferences.completion"
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -74,7 +72,7 @@
       <recent name="comparable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.decreasingCarousel.Main">
+  <component name="RunManager" selected="Application.Hash256Code">
     <configuration name="ElsoProject" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-18" />
       <option name="MAIN_CLASS_NAME" value="ElsoProject" />
@@ -83,15 +81,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="priorityQueue.Main" />
+    <configuration name="Hash256Code" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hash256Code" />
       <module name="repetitio" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="priorityQueue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,19 +130,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ElsoProject" />
+      <item itemvalue="Application.Hash256Code" />
       <item itemvalue="Application.decreasingCarousel.Main" />
       <item itemvalue="Application.MatricesMultiplication" />
       <item itemvalue="Application.MatrixTransposition" />
       <item itemvalue="Application.Spiral" />
-      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Hash256Code" />
         <item itemvalue="Application.decreasingCarousel.Main" />
         <item itemvalue="Application.MatricesMultiplication" />
         <item itemvalue="Application.MatrixTransposition" />
         <item itemvalue="Application.Spiral" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -162,13 +154,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678706725127</updated>
-    </task>
-    <task id="LOCAL-00094" summary="Classes and objects">
-      <created>1679943060405</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1679943060408</updated>
     </task>
     <task id="LOCAL-00095" summary="Classes, objects and tests">
       <created>1679944504909</created>
@@ -506,7 +491,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683738743333</updated>
     </task>
-    <option name="localTasksCounter" value="143" />
+    <task id="LOCAL-00143" summary="Carousel exercise">
+      <created>1684089218555</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1684089218556</updated>
+    </task>
+    <option name="localTasksCounter" value="144" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -521,7 +513,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Classes and objects" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/src/decrementing-carousel" />
+    </ignored-roots>
     <MESSAGE value="Inheritance exercise" />
     <MESSAGE value="gitignore setting" />
     <MESSAGE value="Abstract classes exercise" />
@@ -546,7 +540,8 @@
     <MESSAGE value="Data Structures - PriorityQueue" />
     <MESSAGE value="Singleton pattern" />
     <MESSAGE value="Numbers fill the table/array clockwise from the top-level corner in a spiral manner." />
-    <option name="LAST_COMMIT_MESSAGE" value="Numbers fill the table/array clockwise from the top-level corner in a spiral manner." />
+    <MESSAGE value="Carousel exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Carousel exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
